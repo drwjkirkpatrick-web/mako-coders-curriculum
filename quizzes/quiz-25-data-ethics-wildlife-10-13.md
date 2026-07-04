@@ -1,29 +1,29 @@
 # Week 25 Quiz — Data Ethics — Keep Wildlife Safe — Ages 10–13
 
-> *10 questions to check understanding of Week 25: Data Ethics — Keep Wildlife Safe.*
+> *10 code-focused, CBE-aligned questions for Week 25: Data Ethics — Keep Wildlife Safe.*
 
 ## Questions
 
-1. What is the Swahili name for the All species?
-2. Which country does the All species live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 25?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the All species help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is private data?
+2. Give one example of private wildlife data.
+3. Why should you not share passwords?
+4. What should you do before posting a photo of someone online?
+5. Why is it important to give credit when using someone else's data?
+6. What is one rule for safe online behaviour?
+7. Who owns data collected by a research project?
+8. What does 'consent' mean?
+9. Why should wildlife locations stay private?
+10. Which CBE strand links to data ethics?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Data Ethics — Keep Wildlife Safe]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Information that should not be shared with everyone.
+2. Exact nesting beach location.
+3. Others could pretend to be you.
+4. Ask permission.
+5. It respects their work.
+6. Do not share personal information.
+7. The people or organisation that collected it, with community consent.
+8. Permission to use data or images.
+9. To protect animals from poaching or disturbance.
+10. Citizenship.

@@ -1,29 +1,35 @@
 # Week 34 Quiz — APIs — Fetching Ocean Facts — Ages 14–17
 
-> *10 questions to check understanding of Week 34: APIs — Fetching Ocean Facts.*
+> *10 code-focused, CBE-aligned questions for Week 34: APIs — Fetching Ocean Facts.*
 
 ## Questions
 
-1. Describe the real-world significance of the Whale shark for Kenyan marine ecosystems.
-2. How does learning about the Whale shark connect to the CBE strand 'Networks'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Whale shark.
+1. Write Python code to fetch JSON from an API and print one field.
+2. What is a REST API?
+3. Explain the difference between JSON and XML.
+4. How do you handle a failed API request in code?
+5. What is an API key and why is it private?
+6. Write code that retries an API call up to 3 times.
+7. What is rate limiting?
+8. How would you cache API responses to work offline?
+9. What is pagination in an API?
+10. Map APIs to CBE Networks/Data outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import requests
+data = requests.get(url).json()
+print(data['fact'])
+2. An API that uses HTTP methods like GET, POST, PUT, DELETE.
+3. JSON is lighter and easier to read; XML uses tags.
+4. Use try/except and check response.status_code.
+5. A token that identifies the user; sharing it allows abuse.
+6. for i in range(3):
+    try:
+        return requests.get(url)
+    except:
+        sleep(1)
+7. A restriction on how many API requests you can make in a time period.
+8. Save responses to local files and read them if offline.
+9. Returning large results in chunks or pages.
+10. Learners retrieve and process remote data programmatically.

@@ -1,29 +1,30 @@
 # Week 49 Quiz — User Interface and Accessibility — Ages 14–17
 
-> *10 questions to check understanding of Week 49: User Interface and Accessibility.*
+> *10 code-focused, CBE-aligned questions for Week 49: User Interface and Accessibility.*
 
 ## Questions
 
-1. Describe the real-world significance of the All species for Kenyan marine ecosystems.
-2. How does learning about the All species connect to the CBE strand 'Digital Literacy'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All species.
+1. Write code that draws a UI panel showing score, level, and health.
+2. What are WCAG and why do they matter?
+3. How would you make a game playable with only a keyboard?
+4. Explain colour contrast and why it matters.
+5. What is alt text and when do you use it?
+6. How do you test accessibility without specialised tools?
+7. Write a function that scales UI elements based on screen size.
+8. What is inclusive design?
+9. How would you add subtitles or captions to a game?
+10. Map UI/accessibility to CBE Digital Literacy/Citizenship outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. screen.draw.filled_rect(Rect(0,0,200,60), 'black')
+screen.draw.text(f'Score: {score}', (10, 10))
+2. Web Content Accessibility Guidelines; they help make content usable for all.
+3. Ensure all actions have keyboard controls and visible focus.
+4. Sufficient contrast makes text readable for people with low vision.
+5. Text description of an image; used when images cannot be seen.
+6. Try using only keyboard, increase font size, or use a screen reader.
+7. def ui_scale(base): return base * WIDTH / 800
+8. Designing products that work for the widest range of people.
+9. Display text when sounds play or speech occurs.
+10. Learners design inclusive digital interfaces.

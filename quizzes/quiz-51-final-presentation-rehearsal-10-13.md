@@ -1,29 +1,29 @@
 # Week 51 Quiz — Final Presentation Rehearsal — Ages 10–13
 
-> *10 questions to check understanding of Week 51: Final Presentation Rehearsal.*
+> *10 code-focused, CBE-aligned questions for Week 51: Final Presentation Rehearsal.*
 
 ## Questions
 
-1. What is the Swahili name for the All species?
-2. Which country does the All species live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 51?
-5. What is one new word or idea we learned this week about functions, classes, game loops, and conservation messaging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the All species help us understand coding?
-10. What is one way you can share your project to help others?
+1. What should you include in a presentation?
+2. How long should your presentation be?
+3. What is one way to practice a presentation?
+4. Why should you speak slowly?
+5. What is a demo?
+6. How do you answer a question you do not know?
+7. Name two things to check before presenting.
+8. What do you do if the program crashes during a demo?
+9. Why is eye contact important when presenting?
+10. Which CBE strand links to presentations?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Pygame Zero
-5. [Teacher checks: concept from Final Presentation Rehearsal]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for capstone project development.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. What you built, how it works, and why it matters.
+2. About 2–5 minutes.
+3. Rehearse in front of a mirror or friend.
+4. So people can understand you.
+5. Showing the project working live.
+6. Say you are not sure but will find out.
+7. Project works, slides are ready, notes are brief.
+8. Stay calm and explain what you planned to show.
+9. It connects you with the audience.
+10. Communication.

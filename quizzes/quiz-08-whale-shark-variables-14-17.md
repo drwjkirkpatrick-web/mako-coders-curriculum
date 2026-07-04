@@ -1,29 +1,29 @@
 # Week 08 Quiz — Whale Shark Filter — Variables — Ages 14–17
 
-> *10 questions to check understanding of Week 08: Whale Shark Filter — Variables.*
+> *10 code-focused, CBE-aligned questions for Week 08: Whale Shark Filter — Variables.*
 
 ## Questions
 
-1. Describe the real-world significance of the Whale shark for Kenyan marine ecosystems.
-2. How does learning about the Whale shark connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Whale shark.
+1. Write Python code that creates a variable called 'filtered' and sets it to 0.
+2. What is the difference between a variable and a constant?
+3. Predict the output: count = 5; count += 3; print(count)
+4. Explain variable scope in a simple Python function.
+5. Write code that swaps the values of a and b without a temporary variable.
+6. Which Python data type would you use for a score that can be a decimal?
+7. What is type casting and why would you use it?
+8. Write a function that returns the average of three test scores.
+9. How do you name variables clearly in Python?
+10. Which CBE strand most directly uses variables for collecting data?
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. filtered = 0
+2. A variable can change; a constant stays the same.
+3. 8
+4. Variables created inside a function are local; variables outside are global.
+5. a, b = b, a
+6. float
+7. Converting a value from one type to another, e.g., int('5') for calculations.
+8. def average(a,b,c): return (a+b+c)/3
+9. Use lowercase_with_underscores and meaningful names.
+10. Data.

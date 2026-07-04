@@ -1,29 +1,29 @@
 # Week 40 Quiz — Planning the Mako Shark Expedition — Ages 10–13
 
-> *10 questions to check understanding of Week 40: Planning the Mako Shark Expedition.*
+> *10 code-focused, CBE-aligned questions for Week 40: Planning the Mako Shark Expedition.*
 
 ## Questions
 
-1. What is the Swahili name for the Shortfin mako shark?
-2. Which country does the Shortfin mako shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 40?
-5. What is one new word or idea we learned this week about functions, classes, game loops, and conservation messaging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Shortfin mako shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a capstone project?
+2. What will the Mako Shark Expedition project be about?
+3. Name three features you could include.
+4. What is a project plan?
+5. Why is planning important before coding?
+6. Write one user story for your capstone.
+7. What tool will you mainly use for the capstone?
+8. Name one ocean species to include.
+9. What is a milestone?
+10. Which CBE strand links to project planning?
 
 ## Answer Key
 
-1. papa mako
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Pygame Zero
-5. [Teacher checks: concept from Planning the Mako Shark Expedition]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for capstone project development.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A big final project that shows what you learned.
+2. A conservation-themed game or dashboard.
+3. Player movement, species facts, scoring, charts.
+4. A list of steps and features to build.
+5. It saves time and helps the team agree.
+6. As a player, I want to move the shark so I can explore the reef.
+7. Python + Pygame Zero.
+8. Shortfin mako shark.
+9. A small goal along the way to the final project.
+10. Project / Communication.

@@ -1,29 +1,29 @@
 # Week 51 Quiz — Final Presentation Rehearsal — Ages 14–17
 
-> *10 questions to check understanding of Week 51: Final Presentation Rehearsal.*
+> *10 code-focused, CBE-aligned questions for Week 51: Final Presentation Rehearsal.*
 
 ## Questions
 
-1. Describe the real-world significance of the All species for Kenyan marine ecosystems.
-2. How does learning about the All species connect to the CBE strand 'Communication'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All species.
+1. Write an outline for a 5-minute capstone presentation.
+2. What is a backup plan for a live demo?
+3. How do you tailor a presentation to different audiences?
+4. Explain the rule of three in presentations.
+5. How do you handle nerves before presenting?
+6. What is a call-to-action in a final presentation?
+7. How do you use slides without reading from them?
+8. What questions should you expect from judges?
+9. How would you present code without overwhelming the audience?
+10. Map presentation skills to CBE Communication outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Hook, problem, solution/demo, technical highlights, impact, Q&A.
+2. Have screenshots or a short video ready.
+3. Use different examples and depth based on who is listening.
+4. People remember ideas better in groups of three.
+5. Practice, breathe, and focus on the message.
+6. A clear request, e.g., 'Try the game and share one ocean fact.'
+7. Put keywords on slides and speak from notes.
+8. Why this project, how it works, what you learned, next steps.
+9. Show one key function and explain it in plain language.
+10. Learners communicate ideas clearly and confidently.

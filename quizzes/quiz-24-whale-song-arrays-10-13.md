@@ -1,29 +1,29 @@
 # Week 24 Quiz — Whale Song Arrays — Ages 10–13
 
-> *10 questions to check understanding of Week 24: Whale Song Arrays.*
+> *10 code-focused, CBE-aligned questions for Week 24: Whale Song Arrays.*
 
 ## Questions
 
-1. What is the Swahili name for the Humpback whale?
-2. Which country does the Humpback whale live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 24?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Humpback whale help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is an array?
+2. Write a list of 5 whale song notes.
+3. How do you play the first note?
+4. What does len(notes) tell you?
+5. How do you change the third note?
+6. Write a loop that prints every note.
+7. What could the numbers in a whale song list represent?
+8. How do you add a new note to the end?
+9. Name one thing you could visualise from a whale song array.
+10. Which CBE strand connects arrays and sound?
 
 ## Answer Key
 
-1. nyangumi
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Whale Song Arrays]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A list of values, often all of the same type.
+2. notes = [200, 250, 300, 250, 200]
+3. notes[0]
+4. How many notes are in the list.
+5. notes[2] = 400
+6. for note in notes: print(note)
+7. Frequencies or pitches.
+8. notes.append(350)
+9. A bar graph of note heights.
+10. Data / Creativity.

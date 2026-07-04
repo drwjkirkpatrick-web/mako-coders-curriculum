@@ -1,29 +1,32 @@
 # Week 06 Quiz — If It's a Humpback Dolphin… — Ages 14–17
 
-> *10 questions to check understanding of Week 06: If It's a Humpback Dolphin….*
+> *10 code-focused, CBE-aligned questions for Week 06: If It's a Humpback Dolphin….*
 
 ## Questions
 
-1. Describe the real-world significance of the Indian Ocean humpback dolphin for Kenyan marine ecosystems.
-2. How does learning about the Indian Ocean humpback dolphin connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Indian Ocean humpback dolphin.
+1. Write Python code that prints 'warm' if water_temp > 26, otherwise 'cool'.
+2. What is the difference between 'if', 'elif', and 'else'?
+3. Evaluate: x = 10; if x % 2 == 0: print('even'). What is printed?
+4. Write a Scratch/Python conditional to identify a humpback dolphin by its dorsal fin shape.
+5. What is a predicate?
+6. How would you combine two conditions in Scratch?
+7. Write code that checks if a species is endangered and native to Kenya.
+8. Explain short-circuit evaluation in a simple 'and' expression.
+9. What is the output? a = 5; if a < 3: print('small') elif a < 7: print('medium') else: print('large')
+10. Which CBE competency is developed when learners design species decision trees?
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. if water_temp > 26:
+    print('warm')
+else:
+    print('cool')
+2. if checks first; elif checks other conditions; else runs if none match.
+3. even
+4. IF fin == 'small triangular' THEN species = 'humpback dolphin' ELSE 'unknown'.
+5. A function or expression that returns true or false.
+6. Use the 'and' or 'or' operator blocks.
+7. if status == 'endangered' and country == 'Kenya': print('priority')
+8. If the first part is false, the second part is not checked.
+9. medium
+10. Critical Thinking and Communication.

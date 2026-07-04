@@ -1,29 +1,32 @@
 # Week 47 Quiz — Capstone Build 3 — Data & Conservation — Ages 14–17
 
-> *10 questions to check understanding of Week 47: Capstone Build 3 — Data & Conservation.*
+> *10 code-focused, CBE-aligned questions for Week 47: Capstone Build 3 — Data & Conservation.*
 
 ## Questions
 
-1. Describe the real-world significance of the All species for Kenyan marine ecosystems.
-2. How does learning about the All species connect to the CBE strand 'Project'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All species.
+1. Write code that loads a JSON file of conservation facts and displays one randomly.
+2. How would you integrate real survey data into a game without exposing sensitive locations?
+3. What is a call-to-action and how do you include one responsibly?
+4. Explain how your capstone can be both fun and educational.
+5. Write a function that updates a conservation score based on player behaviour.
+6. How do you verify the accuracy of facts shown in your project?
+7. What is impact design in an educational game?
+8. How would you localise conservation messages to Kiswahili?
+9. What privacy concerns apply if your game collects player scores?
+10. Map conservation data integration to CBE Citizenship/Data outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import random, json
+facts = json.load(open('facts.json'))
+screen.draw.text(random.choice(facts), (50, 50))
+2. Aggregate by region and remove exact coordinates.
+3. A prompt asking the player to act, e.g., 'Learn more at KWS' with a real, safe link.
+4. Gameplay mechanics reinforce real conservation facts.
+5. def update_score(score, collected_plastic):
+    return score + len(collected_plastic) * 10
+6. Cross-check with sources like IUCN, KWS, IFAW.
+7. Designing so the game produces real learning outcomes.
+8. Store messages in both languages and choose based on user preference.
+9. Do not collect personal identifiers without consent.
+10. Learners combine evidence with advocacy in digital products.

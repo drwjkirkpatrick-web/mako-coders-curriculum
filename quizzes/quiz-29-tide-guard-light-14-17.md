@@ -1,29 +1,34 @@
 # Week 29 Quiz — Tide-guard Light — Ages 14–17
 
-> *10 questions to check understanding of Week 29: Tide-guard Light.*
+> *10 code-focused, CBE-aligned questions for Week 29: Tide-guard Light.*
 
 ## Questions
 
-1. Describe the real-world significance of the Seagrass beds for Kenyan marine ecosystems.
-2. How does learning about the Seagrass beds connect to the CBE strand 'Computers'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Seagrass beds.
+1. Write micro:bit code that pulses an LED pattern when high tide is predicted.
+2. How do PWM and LED brightness relate?
+3. What is the difference between a digital and analog output?
+4. Write code to control an external LED on pin 0.
+5. How would you drive a small motor from a micro:bit?
+6. Explain why you need a transistor or relay for high-power outputs.
+7. What safety concern applies to tide-warning lights near water?
+8. Write a function that maps tide height to LED brightness.
+9. How would you add sound to a tide warning?
+10. Map outputs to a CBE Computers outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. from microbit import *
+def tide_warning():
+    for b in range(10):
+        display.set_pixel(2,2,b)
+        sleep(50)
+    display.clear()
+2. PWM varies on-time to control average brightness.
+3. Digital is on/off; analog can vary in level.
+4. pin0.write_digital(1)
+5. Use a motor driver board because the micro:bit cannot supply enough current.
+6. Microcontrollers provide low current; transistors/relays switch higher loads.
+7. Waterproofing and electrical isolation.
+8. def brightness(height): return min(9, int(height * 2))
+9. Attach a buzzer and use pin0.write_analog(frequency).
+10. Learners control hardware actuators based on program logic.

@@ -1,29 +1,29 @@
 # Week 21 Quiz — Turtle Nesting Timer — Ages 10–13
 
-> *10 questions to check understanding of Week 21: Turtle Nesting Timer.*
+> *10 code-focused, CBE-aligned questions for Week 21: Turtle Nesting Timer.*
 
 ## Questions
 
-1. What is the Swahili name for the Green sea turtle?
-2. Which country does the Green sea turtle live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 21?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Green sea turtle help us understand coding?
-10. What is one way you can share your project to help others?
+1. Which Scratch block tells you how much time has passed?
+2. How do you reset the timer in Scratch?
+3. What unit does the Scratch timer use?
+4. Write a script that starts a timer when the flag is clicked and stops when the turtle nests.
+5. Why would you time a turtle nesting?
+6. What block waits for a number of seconds?
+7. If the timer says 45, how many minutes is that?
+8. How do you store the timer value in a variable?
+9. Name one real-world use of a timer in conservation.
+10. Which CBE strand links timers and data?
 
 ## Answer Key
 
-1. kobe ya kijani
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Turtle Nesting Timer]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. timer
+2. reset timer
+3. Seconds.
+4. When green flag clicked: reset timer. When turtle reaches sand: say timer.
+5. To measure how long the turtle spends on the beach.
+6. wait _ secs
+7. 0.75 minutes or 45 seconds.
+8. set [nest_time] to timer
+9. Measuring dive times or nesting durations.
+10. Data.

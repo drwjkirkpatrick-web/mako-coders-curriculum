@@ -1,29 +1,30 @@
 # Week 46 Quiz — Capstone Build 2 — Interactions — Ages 14–17
 
-> *10 questions to check understanding of Week 46: Capstone Build 2 — Interactions.*
+> *10 code-focused, CBE-aligned questions for Week 46: Capstone Build 2 — Interactions.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Project'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. Write a collision function that checks overlap of two rectangles.
+2. What is the difference between AABB and circle collision detection?
+3. How would you implement a scoring system with combos?
+4. Write code to spawn a new fish after one is collected.
+5. What is a hitbox?
+6. How do you prevent the same interaction from triggering twice in one frame?
+7. Explain event-driven vs polling input in Pygame Zero.
+8. What is game feel and how do interactions create it?
+9. How would you log interaction events for later analysis?
+10. Map game interactions to CBE Algorithms/Creativity outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. def collide(a, b):
+    return a.x < b.x + b.w and a.x + a.w > b.x and a.y < b.y + b.h and a.y + a.h > b.y
+2. AABB uses rectangles; circle uses distance from centres.
+3. Increase multiplier when multiple quick interactions happen.
+4. import random; fish.x = random.randint(50, WIDTH-50); fish.y = random.randint(50, HEIGHT-50)
+5. The invisible shape used for collision checks.
+6. Use a flag or cooldown timer.
+7. Event-driven reacts to key events; polling checks keyboard state each frame.
+8. The satisfying response to player actions, e.g., juice, screenshake.
+9. Append events to a list with timestamps.
+10. Learners design responsive, engaging systems.

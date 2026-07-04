@@ -1,29 +1,29 @@
 # Week 12 Quiz — Ocean Scene Sprint — Ages 10–13
 
-> *10 questions to check understanding of Week 12: Ocean Scene Sprint.*
+> *10 code-focused, CBE-aligned questions for Week 12: Ocean Scene Sprint.*
 
 ## Questions
 
-1. What is the Swahili name for the Mixed marine life?
-2. Which country does the Mixed marine life live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 12?
-5. What is one new word or idea we learned this week about sequencing, loops, events, and debugging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Mixed marine life help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a sprint in project work?
+2. Name three ocean sprites you could include in a scene.
+3. Which block changes the backdrop?
+4. How do you make a sprite move automatically without the player clicking?
+5. Write a one-sentence plan for your ocean scene.
+6. What makes a scene visually interesting?
+7. How can sound improve an ocean scene?
+8. Which CBE competency is strongest in a creative sprint?
+9. How do you share your scene with a classmate?
+10. What should you test before showing your scene?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Scratch 3
-5. [Teacher checks: concept from Ocean Scene Sprint]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for block-based coding in Scratch.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A short burst of focused work to build something.
+2. Dolphin, turtle, coral, fish, whale shark.
+3. switch backdrop to [underwater]
+4. Use a forever loop or an event hat.
+5. My scene shows a turtle swimming past coral while fish move in a loop.
+6. Different sprites, colours, movement, and a clear background.
+7. Add ocean or animal sounds.
+8. Creativity and Communication.
+9. Save the file or share a link/screenshot.
+10. That all sprites move as planned.

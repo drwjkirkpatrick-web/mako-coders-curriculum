@@ -1,29 +1,29 @@
 # Week 03 Quiz — Hatchling Dash — Sprites & Motion — Ages 14–17
 
-> *10 questions to check understanding of Week 03: Hatchling Dash — Sprites & Motion.*
+> *10 code-focused, CBE-aligned questions for Week 03: Hatchling Dash — Sprites & Motion.*
 
 ## Questions
 
-1. Describe the real-world significance of the Green sea turtle for Kenyan marine ecosystems.
-2. How does learning about the Green sea turtle connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Green sea turtle.
+1. Write Python Turtle code to set the turtle's position to (100, -50) without drawing.
+2. What is the difference between absolute and relative movement in Scratch?
+3. Which Python Turtle command stamps a copy of the turtle shape?
+4. How would you make a sprite follow the mouse pointer in Scratch?
+5. What are the coordinates of the centre of the Scratch stage?
+6. Write code to make a turtle walk forward until it touches the edge of the screen.
+7. What does the 'if on edge, bounce' block do?
+8. Explain how costumes relate to animation frames.
+9. Which CBE competency is strengthened when learners debug sprite motion?
+10. Give the coordinate pairs for the four corners of a standard Scratch stage.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import turtle; t = turtle.Turtle(); t.penup(); t.setpos(100, -50)
+2. Absolute uses exact coordinates; relative uses change by/direction.
+3. t.stamp()
+4. Forever: point towards mouse-pointer, move 5 steps.
+5. x=0, y=0.
+6. while not t.xcor() > 300: t.forward(5)
+7. It reverses direction when a sprite hits the stage edge.
+8. Each costume is one frame; switching quickly creates animation.
+9. Critical Thinking and Problem Solving.
+10. Top-left (-240,180), top-right (240,180), bottom-right (240,-180), bottom-left (-240,-180).

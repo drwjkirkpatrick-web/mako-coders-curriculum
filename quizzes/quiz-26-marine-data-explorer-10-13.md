@@ -1,29 +1,29 @@
 # Week 26 Quiz — Marine Data Explorer Mini-Project — Ages 10–13
 
-> *10 questions to check understanding of Week 26: Marine Data Explorer Mini-Project.*
+> *10 code-focused, CBE-aligned questions for Week 26: Marine Data Explorer Mini-Project.*
 
 ## Questions
 
-1. What is the Swahili name for the Mixed marine life?
-2. Which country does the Mixed marine life live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 26?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Mixed marine life help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is the first step in building a mini-project?
+2. Name two Python tools you could use in your Marine Data Explorer.
+3. What should your project show about Kenyan marine life?
+4. How do you know if your project works?
+5. What is one thing to add to make your project easier to use?
+6. Why is testing important before sharing?
+7. Name one chart you could include.
+8. What is a feature?
+9. How do you save a chart image?
+10. Which CBE strand links a data mini-project?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Marine Data Explorer Mini-Project]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Plan what it will do.
+2. Lists, dictionaries, matplotlib.
+3. Data such as species counts or locations.
+4. You run it and check the output.
+5. Labels, instructions, or a menu.
+6. To find bugs.
+7. Bar chart of species counts.
+8. One thing the program can do.
+9. plt.savefig('chart.png')
+10. Data / Creativity.

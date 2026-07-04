@@ -1,29 +1,29 @@
 # Week 24 Quiz — Whale Song Arrays — Ages 14–17
 
-> *10 questions to check understanding of Week 24: Whale Song Arrays.*
+> *10 code-focused, CBE-aligned questions for Week 24: Whale Song Arrays.*
 
 ## Questions
 
-1. Describe the real-world significance of the Humpback whale for Kenyan marine ecosystems.
-2. How does learning about the Humpback whale connect to the CBE strand 'Data'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used variables, lists, dictionaries, and visualisation in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching text-based Python and data structures.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Humpback whale.
+1. Write Python code to play a sequence of frequencies using simpleaudio or winsound.
+2. What is the difference between a list and a NumPy array?
+3. How do you compute the average frequency of a song?
+4. Write code to find the highest and lowest notes.
+5. What is a spectrogram?
+6. Explain how arrays relate to digital audio.
+7. Write a function that reverses a whale song array.
+8. How would you detect repeated patterns in an array?
+9. What data type should audio sample values have?
+10. Map arrays to a CBE Data/Algorithms outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to text-based Python and data structures]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import winsound; for f in [200,250,300]: winsound.Beep(f, 500)
+2. A NumPy array supports fast numeric operations and has a fixed type.
+3. sum(notes) / len(notes)
+4. max(notes), min(notes)
+5. A visual representation of frequencies over time.
+6. Audio is stored as a list of amplitude samples over time.
+7. def reverse_song(song): return song[::-1]
+8. Compare slices or use autocorrelation.
+9. Integer or float, depending on bit depth.
+10. Learners process sequential numeric data.

@@ -1,29 +1,29 @@
 # Week 32 Quiz — Simulated Shark Tracker — Ages 10–13
 
-> *10 questions to check understanding of Week 32: Simulated Shark Tracker.*
+> *10 code-focused, CBE-aligned questions for Week 32: Simulated Shark Tracker.*
 
 ## Questions
 
-1. What is the Swahili name for the Shortfin mako shark?
-2. Which country does the Shortfin mako shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 32?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Shortfin mako shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a simulation?
+2. Why simulate a shark tracker instead of using a real shark?
+3. Which data could a simulated shark tracker show?
+4. Write code to move a simulated shark one step east.
+5. How do you make a tracker update every second?
+6. What does random.choice([1,-1]) do?
+7. Name one thing you could plot from simulated data.
+8. Why do simulations use random numbers?
+9. How do you store a simulated shark position?
+10. Which CBE strand links simulations?
 
 ## Answer Key
 
-1. papa mako
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Simulated Shark Tracker]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A model of a real thing on a computer.
+2. It is safer and cheaper.
+3. Position, time, depth, temperature.
+4. shark_x = shark_x + 1
+5. Use a loop with sleep(1).
+6. Picks 1 or -1 randomly.
+7. Shark path on a map.
+8. To model unpredictable movement.
+9. As x and y variables.
+10. Algorithms / Data.

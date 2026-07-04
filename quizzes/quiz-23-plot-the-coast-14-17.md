@@ -1,29 +1,29 @@
 # Week 23 Quiz — Plot the Coast — Ages 14–17
 
-> *10 questions to check understanding of Week 23: Plot the Coast.*
+> *10 code-focused, CBE-aligned questions for Week 23: Plot the Coast.*
 
 ## Questions
 
-1. Describe the real-world significance of the Survey results for Kenyan marine ecosystems.
-2. How does learning about the Survey results connect to the CBE strand 'Data'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used variables, lists, dictionaries, and visualisation in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching text-based Python and data structures.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Survey results.
+1. Write code to plot a line graph of turtle sightings over 7 days.
+2. What is the difference between plt.plot() and plt.scatter()?
+3. How do you save a chart to a file instead of showing it?
+4. Explain why adding labels and titles matters.
+5. Write code to plot multiple species on the same chart.
+6. What is a histogram used for?
+7. How would you handle missing data before plotting?
+8. Write code to set the colour of a bar chart.
+9. What is a misleading graph and how do you avoid it?
+10. Map plotting to a CBE Data outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to text-based Python and data structures]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. plt.plot(days, sightings); plt.xlabel('Day'); plt.ylabel('Sightings'); plt.show()
+2. plot connects points; scatter shows individual points.
+3. plt.savefig('chart.png')
+4. It makes the chart readable and trustworthy.
+5. plt.plot(days, dolphins, label='Dolphins'); plt.plot(days, turtles, label='Turtles'); plt.legend()
+6. Showing how often values fall into ranges.
+7. Skip the missing point or use a placeholder/mean.
+8. plt.bar(species, counts, color=['blue','green','red'])
+9. A graph that distorts scale or omits context; use clear labels and consistent scales.
+10. Learners visualise data to identify patterns and communicate findings.

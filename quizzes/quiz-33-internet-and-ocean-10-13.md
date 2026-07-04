@@ -1,29 +1,29 @@
 # Week 33 Quiz — Internet and the Ocean — Ages 10–13
 
-> *10 questions to check understanding of Week 33: Internet and the Ocean.*
+> *10 code-focused, CBE-aligned questions for Week 33: Internet and the Ocean.*
 
 ## Questions
 
-1. What is the Swahili name for the All species?
-2. Which country does the All species live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 33?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the All species help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is the internet?
+2. What does a web browser do?
+3. Name two things you can do on the internet.
+4. What is a URL?
+5. Why is the internet useful for ocean research?
+6. What is a website?
+7. How can you tell if a website is trustworthy?
+8. What does 'offline' mean?
+9. Name one Kenyan ocean data source on the internet.
+10. Which CBE strand links to the internet?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Internet and the Ocean]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A global network of connected computers.
+2. It shows web pages.
+3. Send email, watch videos, research.
+4. The address of a web page.
+5. Scientists can share data quickly.
+6. A collection of web pages on the internet.
+7. Check the author and source.
+8. Not connected to the internet.
+9. IFAW, KWS, WCS reports.
+10. Networks / Digital Literacy.

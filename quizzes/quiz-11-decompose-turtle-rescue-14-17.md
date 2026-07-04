@@ -1,29 +1,29 @@
 # Week 11 Quiz — Decompose a Turtle Rescue — Ages 14–17
 
-> *10 questions to check understanding of Week 11: Decompose a Turtle Rescue.*
+> *10 code-focused, CBE-aligned questions for Week 11: Decompose a Turtle Rescue.*
 
 ## Questions
 
-1. Describe the real-world significance of the Green sea turtle for Kenyan marine ecosystems.
-2. How does learning about the Green sea turtle connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Green sea turtle.
+1. Define decomposition in computational thinking.
+2. How does decomposition differ from abstraction?
+3. Write a top-level pseudocode plan for a turtle rescue app.
+4. Why should functions be small and single-purpose?
+5. Decompose the task 'draw a Kenya marine food web' into at least four functions.
+6. What is a driver function?
+7. How would you decompose a 52-week curriculum database?
+8. Give one sign that a function is doing too much.
+9. What is the relationship between decomposition and modularity?
+10. Map decomposition to a CBE learning outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Breaking a complex problem into smaller, manageable sub-problems.
+2. Decomposition splits into parts; abstraction hides unnecessary detail.
+3. 1. Load map; 2. Locate turtle; 3. Assess danger; 4. Plan route; 5. Execute rescue; 6. Report.
+4. They are easier to test, reuse, and read.
+5. draw_producer(), draw_primary_consumer(), draw_predator(), draw_arrows().
+6. A function that calls other functions in the right order.
+7. Students table, quizzes table, attempts table, badges table.
+8. It is very long or its name includes 'and'.
+9. Decomposition produces modules that can be developed independently.
+10. Learners break complex conservation tasks into algorithmic steps.

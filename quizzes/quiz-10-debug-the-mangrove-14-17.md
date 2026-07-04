@@ -1,29 +1,32 @@
 # Week 10 Quiz — Debug the Mangrove — Ages 14–17
 
-> *10 questions to check understanding of Week 10: Debug the Mangrove.*
+> *10 code-focused, CBE-aligned questions for Week 10: Debug the Mangrove.*
 
 ## Questions
 
-1. Describe the real-world significance of the Mangroves for Kenyan marine ecosystems.
-2. How does learning about the Mangroves connect to the CBE strand 'Critical Thinking'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Mangroves.
+1. What is the difference between a syntax error and a runtime error?
+2. What Python error appears when you use a variable before defining it?
+3. How do you use print() for debugging?
+4. What is a stack trace and why is it useful?
+5. Write a try/except block that handles dividing by zero.
+6. Explain rubber-duck debugging.
+7. What is a breakpoint?
+8. Why should tests be small and focused?
+9. Which debugging strategy would you use if a loop gives unexpected values?
+10. Which CBE competency is most developed by systematic debugging?
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Syntax error breaks language rules; runtime error occurs while running.
+2. NameError
+3. Add print() statements to show variable values at different points.
+4. It shows the sequence of function calls that led to an error.
+5. try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print('Cannot divide by zero')
+6. Explaining your code out loud to an object helps you spot mistakes.
+7. A marker that pauses execution at a specific line so you can inspect state.
+8. They isolate bugs and prove one thing at a time.
+9. Print the loop counter each iteration.
+10. Critical Thinking and Problem Solving.

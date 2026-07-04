@@ -1,29 +1,30 @@
 # Week 14 Quiz — From Blocks to Text — Ages 10–13
 
-> *10 questions to check understanding of Week 14: From Blocks to Text.*
+> *10 code-focused, CBE-aligned questions for Week 14: From Blocks to Text.*
 
 ## Questions
 
-1. What is the Swahili name for the Shortfin mako shark?
-2. Which country does the Shortfin mako shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 14?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Shortfin mako shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. What does 'blocks to text' mean?
+2. Which programming language will we use next?
+3. Write the Python version of 'say Hello for 2 secs'.
+4. What is a text editor?
+5. Which is longer: a Scratch script or the same program in Python?
+6. What must you remember when typing Python instead of dragging blocks?
+7. Write the Python version of 'repeat 10: move 10 steps'.
+8. What happens if you forget a colon (:) at the end of a Python line?
+9. Why is indentation important in Python?
+10. Which CBE strand links blocks-to-text transition?
 
 ## Answer Key
 
-1. papa mako
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from From Blocks to Text]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Moving from Scratch blocks to typed code.
+2. Python.
+3. print('Hello')
+4. A program where you type code.
+5. Python is usually shorter and uses words instead of blocks.
+6. Spelling, indentation, and punctuation matter.
+7. for _ in range(10):
+    t.forward(10)
+8. You get a syntax error.
+9. It shows which lines belong to a loop or condition.
+10. Digital Literacy.

@@ -1,29 +1,31 @@
 # Week 17 Quiz — Filtering the Plankton — Ages 10–13
 
-> *10 questions to check understanding of Week 17: Filtering the Plankton.*
+> *10 code-focused, CBE-aligned questions for Week 17: Filtering the Plankton.*
 
 ## Questions
 
-1. What is the Swahili name for the Whale shark?
-2. Which country does the Whale shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 17?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Whale shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. What does filtering mean?
+2. If you filter species by 'starts with s', which would you keep: shark, turtle, seahorse, dolphin?
+3. Which Python word checks every item in a list?
+4. Write code that prints only species with length > 5 metres.
+5. What do you need before filtering a list?
+6. Why would you filter plankton data?
+7. What happens if no items match the filter?
+8. Name one filter you could apply to a list of sea animals.
+9. Which block in Scratch could you use to filter?
+10. Which CBE strand connects to filtering?
 
 ## Answer Key
 
-1. papa mafia
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Filtering the Plankton]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Keeping only the items that match a rule.
+2. shark, seahorse.
+3. for
+4. for s in species:
+    if length[s] > 5:
+        print(s)
+5. A condition to test each item.
+6. To find only the large samples or only the ones from Kenya.
+7. The result list is empty.
+8. Endangered, carnivore, or coastal.
+9. A repeat + if combination.
+10. Data.

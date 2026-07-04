@@ -1,29 +1,32 @@
 # Week 44 Quiz — Events and the Game Loop — Ages 10–13
 
-> *10 questions to check understanding of Week 44: Events and the Game Loop.*
+> *10 code-focused, CBE-aligned questions for Week 44: Events and the Game Loop.*
 
 ## Questions
 
-1. What is the Swahili name for the Shortfin mako shark?
-2. Which country does the Shortfin mako shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 44?
-5. What is one new word or idea we learned this week about functions, classes, game loops, and conservation messaging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Shortfin mako shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a game loop?
+2. Which function in Pygame Zero runs every frame?
+3. What happens inside a game loop?
+4. Write pseudocode for a simple game loop.
+5. What is a frame?
+6. How do you make a shark move smoothly?
+7. What event makes the shark turn left?
+8. What does FPS mean?
+9. Why should the game loop keep running quickly?
+10. Which CBE strand links to game loops?
 
 ## Answer Key
 
-1. papa mako
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Pygame Zero
-5. [Teacher checks: concept from Events and the Game Loop]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for capstone project development.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Code that runs over and over to update the game.
+2. draw() and update()
+3. Check input, update positions, draw screen.
+4. while running:
+    handle input
+    move objects
+    draw screen
+5. One picture shown by the game.
+6. Update its position a little each frame.
+7. Pressing the left arrow key.
+8. Frames per second.
+9. So the game feels smooth.
+10. Algorithms.

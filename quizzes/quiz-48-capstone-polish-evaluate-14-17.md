@@ -1,29 +1,29 @@
 # Week 48 Quiz — Capstone Build 4 — Polish & Evaluate — Ages 14–17
 
-> *10 questions to check understanding of Week 48: Capstone Build 4 — Polish & Evaluate.*
+> *10 code-focused, CBE-aligned questions for Week 48: Capstone Build 4 — Polish & Evaluate.*
 
 ## Questions
 
-1. Describe the real-world significance of the All species for Kenyan marine ecosystems.
-2. How does learning about the All species connect to the CBE strand 'Project'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All species.
+1. Write a rubric with three criteria for evaluating your capstone.
+2. What is user acceptance testing?
+3. How do you prioritise bugs before a deadline?
+4. Explain the difference between alpha and beta testing.
+5. Write a short script for observing a player test your game.
+6. What is refactoring and why do it?
+7. How do you measure performance in a game?
+8. What is accessibility and why add it?
+9. How would you document known issues in your project?
+10. Map evaluation to CBE Learning to Learn/Critical Thinking outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Gameplay, correctness of facts, code quality / usability.
+2. Testing whether the product meets user needs.
+3. Fix crashes first, then gameplay, then polish.
+4. Alpha is internal; beta is with external users.
+5. Watch for confusion, count bugs, ask what they learned.
+6. Improving code structure without changing behaviour; makes code easier to maintain.
+7. Check FPS and memory use.
+8. Making the project usable by people with different abilities.
+9. Add a TODO or issues list in the README.
+10. Learners assess quality and iterate based on feedback.

@@ -1,29 +1,32 @@
 # Week 41 Quiz — Functions Revisited — Hunt Mode — Ages 14–17
 
-> *10 questions to check understanding of Week 41: Functions Revisited — Hunt Mode.*
+> *10 code-focused, CBE-aligned questions for Week 41: Functions Revisited — Hunt Mode.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. Write a Python function hunt_mode(is_day, energy) that returns True only during the day with enough energy.
+2. What is a pure function?
+3. Explain the difference between positional and keyword arguments.
+4. Write a function with default parameters.
+5. What is function composition?
+6. How do you test a function with many possible inputs?
+7. Write a recursive function for the Fibonacci sequence.
+8. What is memoization and why use it?
+9. How do docstrings help maintain functions?
+10. Map advanced functions to CBE Algorithms outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. def hunt_mode(is_day, energy):
+    return is_day and energy > 50
+2. A function with no side effects and the same output for the same input.
+3. Positional rely on order; keyword are named.
+4. def greet(name, greeting='Hello'):
+    print(greeting, name)
+5. Using the output of one function as the input of another.
+6. Use a table of test cases or small unit tests.
+7. def fib(n):
+    return n if n < 2 else fib(n-1) + fib(n-2)
+8. Storing results of expensive function calls to avoid recomputation.
+9. They describe what the function does, its parameters, and return value.
+10. Learners design robust, reusable procedures for complex programs.

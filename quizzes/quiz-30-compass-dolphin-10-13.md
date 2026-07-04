@@ -1,29 +1,30 @@
 # Week 30 Quiz — Compass Dolphin — Ages 10–13
 
-> *10 questions to check understanding of Week 30: Compass Dolphin.*
+> *10 code-focused, CBE-aligned questions for Week 30: Compass Dolphin.*
 
 ## Questions
 
-1. What is the Swahili name for the Spinner dolphin?
-2. Which country does the Spinner dolphin live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 30?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Spinner dolphin help us understand coding?
-10. What is one way you can share your project to help others?
+1. Which micro:bit sensor shows direction?
+2. What does compass.heading() return?
+3. Which direction is 0 degrees?
+4. Which direction is 90 degrees?
+5. Write code to show 'N' if pointing north.
+6. Why must you calibrate a compass?
+7. What is a heading?
+8. Which animal in our lessons uses echolocation and direction?
+9. How can a compass help track an animal?
+10. Which CBE strand links to sensors?
 
 ## Answer Key
 
-1. pomboo
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Compass Dolphin]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Compass / magnetometer.
+2. A direction in degrees from north.
+3. North.
+4. East.
+5. if compass.heading() < 10 or compass.heading() > 350:
+    display.show('N')
+6. To make the readings accurate.
+7. A direction expressed in degrees.
+8. Dolphin.
+9. It records which direction a tagged animal is moving.
+10. Computers.

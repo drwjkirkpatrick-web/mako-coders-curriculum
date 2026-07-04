@@ -1,29 +1,36 @@
 # Week 27 Quiz — Inputs from the Ocean — Ages 14–17
 
-> *10 questions to check understanding of Week 27: Inputs from the Ocean.*
+> *10 code-focused, CBE-aligned questions for Week 27: Inputs from the Ocean.*
 
 ## Questions
 
-1. Describe the real-world significance of the Mangroves for Kenyan marine ecosystems.
-2. How does learning about the Mangroves connect to the CBE strand 'Computers'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Mangroves.
+1. Write micro:bit code that reads button A and sends 'splash' to the serial port.
+2. What is the difference between polling and interrupt-driven input?
+3. Explain analog-to-digital conversion in simple terms.
+4. How would you debounce a mechanical button in code?
+5. Write a function read_button() that returns 'A', 'B', or 'none'.
+6. What is a pull-up resistor used for?
+7. How would you log button presses with timestamps?
+8. Name two real sensors used in ocean monitoring.
+9. What is sensor calibration?
+10. Map inputs to a CBE Computers outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. from microbit import *
+while True:
+    if button_a.was_pressed():
+        print('splash')
+    sleep(100)
+2. Polling repeatedly checks; interrupts react immediately to an event.
+3. It turns a continuous measurement like temperature into a digital number.
+4. Wait a short time after detecting a press before checking again.
+5. def read_button():
+    if button_a.is_pressed(): return 'A'
+    if button_b.is_pressed(): return 'B'
+    return 'none'
+6. It keeps an input at a known high state until a button connects it to ground.
+7. Store (time, button) tuples in a list.
+8. Temperature sensor, salinity sensor, pH sensor, turbidity sensor.
+9. Adjusting readings so they match known real values.
+10. Learners read data from hardware sensors.

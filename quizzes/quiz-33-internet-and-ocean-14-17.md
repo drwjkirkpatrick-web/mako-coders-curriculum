@@ -1,29 +1,29 @@
 # Week 33 Quiz — Internet and the Ocean — Ages 14–17
 
-> *10 questions to check understanding of Week 33: Internet and the Ocean.*
+> *10 code-focused, CBE-aligned questions for Week 33: Internet and the Ocean.*
 
 ## Questions
 
-1. Describe the real-world significance of the All species for Kenyan marine ecosystems.
-2. How does learning about the All species connect to the CBE strand 'Networks'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All species.
+1. Explain how DNS translates a domain name to an IP address.
+2. What is HTTP and what does a status code like 404 mean?
+3. Write Python code to fetch a webpage's text using requests.
+4. What is bandwidth and why does it matter in rural Kenya?
+5. How does caching speed up web browsing?
+6. What is the difference between the internet and the World Wide Web?
+7. Explain HTTPS and why it matters.
+8. How would you design an offline-first marine data app?
+9. What is a CDN?
+10. Map internet basics to CBE Networks/Digital Literacy outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. DNS is like a phone book that maps names to numeric addresses.
+2. HTTP transfers web data; 404 means the page was not found.
+3. import requests; r = requests.get('https://example.com'); print(r.text)
+4. Amount of data that can be sent; limited connectivity affects access.
+5. It stores copies of resources so they load faster next time.
+6. The internet is the network; the Web is a service running on it.
+7. HTTPS encrypts data between browser and server, protecting privacy.
+8. Store data locally, sync when connected, minimise downloads.
+9. A network of servers that delivers content from a nearby location.
+10. Learners understand how networked systems share information safely.

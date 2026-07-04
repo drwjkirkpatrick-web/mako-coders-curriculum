@@ -1,29 +1,34 @@
 # Week 31 Quiz — Radio Tag — micro:bit Networks — Ages 10–13
 
-> *10 questions to check understanding of Week 31: Radio Tag — micro:bit Networks.*
+> *10 code-focused, CBE-aligned questions for Week 31: Radio Tag — micro:bit Networks.*
 
 ## Questions
 
-1. What is the Swahili name for the Shortfin mako shark?
-2. Which country does the Shortfin mako shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 31?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Shortfin mako shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. What does the micro:bit radio do?
+2. Which block turns the radio on?
+3. Which block sends a message?
+4. Write code to send a tag ID when button A is pressed.
+5. What is a network?
+6. Why would scientists use radio tags on sharks?
+7. What could go wrong with a radio message?
+8. How do two micro:bits know they are on the same network?
+9. What is the range of a micro:bit radio?
+10. Which CBE strand links to radio?
 
 ## Answer Key
 
-1. papa mako
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Radio Tag — micro:bit Networks]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. It sends and receives messages between micro:bits.
+2. radio.on()
+3. radio.send('hello')
+4. from microbit import *
+import radio
+radio.on()
+while True:
+    if button_a.is_pressed():
+        radio.send('mako-01')
+5. Connected devices that can communicate.
+6. To track movement without following the animal.
+7. It might not be received, or it could be lost.
+8. They use the same channel/group.
+9. Around 10–20 metres, depending on conditions.
+10. Networks.

@@ -1,29 +1,31 @@
 # Week 27 Quiz — Inputs from the Ocean — Ages 10–13
 
-> *10 questions to check understanding of Week 27: Inputs from the Ocean.*
+> *10 code-focused, CBE-aligned questions for Week 27: Inputs from the Ocean.*
 
 ## Questions
 
-1. What is the Swahili name for the Mangroves?
-2. Which country does the Mangroves live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 27?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Mangroves help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is an input on a micro:bit?
+2. Name two inputs on a micro:bit.
+3. Which block checks if button A is pressed?
+4. What does a sensor do?
+5. Write micro:bit code to show a smile when button A is pressed.
+6. What is an example of a digital input?
+7. What is an example of an analog input?
+8. Why do mangrove projects need sensors?
+9. How do you read the micro:bit temperature?
+10. Which CBE strand links to sensors and inputs?
 
 ## Answer Key
 
-1. mikoko
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Inputs from the Ocean]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Something the micro:bit can sense, like a button press.
+2. Buttons A and B, accelerometer, temperature sensor.
+3. on button A pressed
+4. It measures something from the environment.
+5. from microbit import *; while True:
+    if button_a.is_pressed():
+        display.show(Image.HAPPY)
+6. A button press.
+7. Temperature or light level.
+8. To measure water level, temperature, or soil moisture.
+9. temperature()
+10. Computers.

@@ -1,29 +1,35 @@
 # Week 31 Quiz — Radio Tag — micro:bit Networks — Ages 14–17
 
-> *10 questions to check understanding of Week 31: Radio Tag — micro:bit Networks.*
+> *10 code-focused, CBE-aligned questions for Week 31: Radio Tag — micro:bit Networks.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Networks'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. Write micro:bit code that receives a radio message and displays it.
+2. What is a protocol and why is it needed in networking?
+3. Explain broadcast vs point-to-point communication.
+4. How would you add a checksum to a simple tag message?
+5. What is packet loss and how might it affect shark tracking?
+6. Write code to set a radio group so two micro:bits can talk privately.
+7. What is latency in a radio network?
+8. How would you store received tag IDs for later analysis?
+9. Explain the difference between Bluetooth and micro:bit radio.
+10. Map radio networks to a CBE Networks outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. from microbit import *
+import radio
+radio.on()
+while True:
+    msg = radio.receive()
+    if msg:
+        display.scroll(msg)
+2. A set of rules so devices understand each other.
+3. Broadcast sends to all; point-to-point sends to one specific device.
+4. Append a simple hash like sum of ASCII values mod 256.
+5. Some messages are not received, causing gaps in the track.
+6. radio.config(group=7); radio.on()
+7. Delay between sending and receiving a message.
+8. Append them to a list with timestamps.
+9. Bluetooth pairs devices; micro:bit radio is simpler broadcast.
+10. Learners use simple wireless communication to exchange data.

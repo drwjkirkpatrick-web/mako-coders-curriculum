@@ -1,29 +1,29 @@
 # Week 23 Quiz — Plot the Coast — Ages 10–13
 
-> *10 questions to check understanding of Week 23: Plot the Coast.*
+> *10 code-focused, CBE-aligned questions for Week 23: Plot the Coast.*
 
 ## Questions
 
-1. What is the Swahili name for the Survey results?
-2. Which country does the Survey results live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 23?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Survey results help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a bar chart?
+2. Which Python library can draw charts?
+3. Write code to draw a bar of height 8.
+4. What goes on the x-axis of a chart?
+5. What goes on the y-axis of a chart?
+6. Name two chart types you can use for survey data.
+7. Why is a chart better than a big list of numbers?
+8. What does plt.show() do?
+9. How do you add a title to a chart?
+10. Which CBE strand links to plotting?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Plot the Coast]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A chart with bars showing amounts.
+2. matplotlib
+3. import matplotlib.pyplot as plt; plt.bar('Turtles', 8); plt.show()
+4. Categories or labels.
+5. Numbers or values.
+6. Bar chart and line graph.
+7. It helps you see patterns quickly.
+8. Displays the chart on screen.
+9. plt.title('Kenya Marine Sightings')
+10. Data.

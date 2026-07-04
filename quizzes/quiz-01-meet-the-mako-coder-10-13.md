@@ -1,29 +1,29 @@
 # Week 01 Quiz — Meet the Mako Coder — Ages 10–13
 
-> *10 questions to check understanding of Week 01: Meet the Mako Coder.*
+> *10 code-focused, CBE-aligned questions for Week 01: Meet the Mako Coder.*
 
 ## Questions
 
-1. What is the Swahili name for the Shortfin mako shark?
-2. Which country does the Shortfin mako shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 01?
-5. What is one new word or idea we learned this week about sequencing, loops, events, and debugging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Shortfin mako shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. Which Scratch block starts every program when the green flag is clicked?
+2. Name the three main parts of a computer you need to set up before coding.
+3. What does the 'Save' button do?
+4. Write the first block you should always add to a new Scratch sprite.
+5. Why is it important to name your project file clearly?
+6. What is an example of an input device?
+7. What is an example of an output device?
+8. In one sentence, what does a coder do?
+9. What happens if you turn off the computer before saving?
+10. List two rules for safely using a school computer.
 
 ## Answer Key
 
-1. papa mako
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Scratch 3
-5. [Teacher checks: concept from Meet the Mako Coder]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for block-based coding in Scratch.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Events → When [green flag] clicked.
+2. Input, processing, and output.
+3. It stores your project so you do not lose work.
+4. When green flag clicked.
+5. So you can find it again easily.
+6. Keyboard, mouse, microphone, or touchscreen.
+7. Screen, speaker, or printer.
+8. A coder writes instructions for a computer to follow.
+9. Unsaved work may be lost.
+10. Do not share passwords; only open files you created or the teacher shared.

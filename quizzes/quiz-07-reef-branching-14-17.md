@@ -1,29 +1,32 @@
 # Week 07 Quiz — Reef Branching — If-Else Ladders — Ages 14–17
 
-> *10 questions to check understanding of Week 07: Reef Branching — If-Else Ladders.*
+> *10 code-focused, CBE-aligned questions for Week 07: Reef Branching — If-Else Ladders.*
 
 ## Questions
 
-1. Describe the real-world significance of the Coral reefs for Kenyan marine ecosystems.
-2. How does learning about the Coral reefs connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Coral reefs.
+1. Write a Python function that returns the reef zone for a given depth.
+2. When should you use if-elif-else instead of many independent ifs?
+3. What is the bug in this ladder? if x > 5: ... elif x > 10: ...
+4. Convert this to a dictionary lookup: if species == 'dolphin': return 2; elif species == 'shark': return 5; else: return 0.
+5. Write a ladder that assigns protection level based on IUCN status.
+6. What is fall-through and how do you prevent it in Python?
+7. Explain how branching supports adaptive learning software.
+8. Which Boolean expression is true only when depth is between 5 and 15?
+9. How do you handle invalid user input in a branching program?
+10. Map if-else ladders to a CBE learning outcome in the Algorithms strand.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. def reef_zone(depth):
+    if depth < 5: return 'shallow'
+    elif depth < 20: return 'fore-reef'
+    else: return 'deep'
+2. When only one branch should run.
+3. The second condition will never run because the first catches all x > 5, including > 10.
+4. { 'dolphin': 2, 'shark': 5 }.get(species, 0)
+5. if status == 'CR': return 'urgent'; elif status == 'EN': return 'high'; elif status == 'VU': return 'medium'; else: return 'low'
+6. Fall-through runs multiple branches; use elif to prevent it.
+7. The program changes difficulty based on the learner's score.
+8. depth >= 5 and depth <= 15
+9. Add an else/default branch that asks again or shows an error.
+10. Learners select appropriate control structures for multi-way decisions.

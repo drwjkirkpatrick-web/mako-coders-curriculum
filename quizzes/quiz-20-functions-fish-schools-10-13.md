@@ -1,29 +1,30 @@
 # Week 20 Quiz — Functions for Fish Schools — Ages 10–13
 
-> *10 questions to check understanding of Week 20: Functions for Fish Schools.*
+> *10 code-focused, CBE-aligned questions for Week 20: Functions for Fish Schools.*
 
 ## Questions
 
-1. What is the Swahili name for the Mixed fish?
-2. Which country does the Mixed fish live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 20?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Mixed fish help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a function?
+2. Why are functions useful?
+3. Write a Scratch custom block called draw_fish.
+4. What does it mean to 'call' a function?
+5. How many times can you call a function?
+6. Write pseudocode for a function that draws a school of 5 fish.
+7. What is an input to a function called?
+8. If a function needs a colour, how do you give it one?
+9. Name one thing you could put in a function for an ocean project.
+10. Which CBE strand links to functions?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Functions for Fish Schools]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A named block of code that does one job.
+2. You can reuse code without rewriting it.
+3. Make a Block: define draw_fish; inside: draw shape.
+4. To run the code inside it.
+5. As many times as you like.
+6. define draw_school:
+    repeat 5: draw_fish, move right.
+7. A parameter or argument.
+8. Pass it as a parameter.
+9. Draw a fish, move a shark, play a sound.
+10. Algorithms.

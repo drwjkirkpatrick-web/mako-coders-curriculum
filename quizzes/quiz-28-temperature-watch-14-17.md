@@ -1,29 +1,36 @@
 # Week 28 Quiz — Temperature Watch — Ages 14–17
 
-> *10 questions to check understanding of Week 28: Temperature Watch.*
+> *10 code-focused, CBE-aligned questions for Week 28: Temperature Watch.*
 
 ## Questions
 
-1. Describe the real-world significance of the Coral reefs for Kenyan marine ecosystems.
-2. How does learning about the Coral reefs connect to the CBE strand 'Computers'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Coral reefs.
+1. Write a micro:bit program that records temperature every minute and alerts if it exceeds 30°C.
+2. What is a moving average and why use it with sensor data?
+3. How would you plot temperature readings over time?
+4. Explain the difference between accuracy and precision.
+5. Write code to compute the average of the last 5 readings.
+6. What is an actuator? Give an example.
+7. How would you send an alert without a screen?
+8. Why does coral bleach when water is too warm?
+9. Design a threshold with hysteresis: alert above 30, cancel below 27.
+10. Map temperature monitoring to CBE outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. from microbit import *
+readings = []
+while True:
+    t = temperature()
+    readings.append(t)
+    if t > 30:
+        display.show(Image.SAD)
+    sleep(60000)
+2. Average of recent readings; it reduces noise.
+3. Store (time, temp) pairs and plot temp vs time.
+4. Accuracy is closeness to true value; precision is consistency of repeated readings.
+5. avg = sum(readings[-5:]) / len(readings[-5:])
+6. A device that acts on the world, e.g., a buzzer or LED.
+7. Use a buzzer, radio, or flashing LED.
+8. It loses the algae that give it colour and food.
+9. if t > 30: alert = True; elif t < 27: alert = False
+10. Computers (sensors), Data (logging), Citizenship (conservation).

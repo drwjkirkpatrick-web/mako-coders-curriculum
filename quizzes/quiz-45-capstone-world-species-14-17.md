@@ -1,29 +1,30 @@
 # Week 45 Quiz — Capstone Build 1 — World & Species — Ages 14–17
 
-> *10 questions to check understanding of Week 45: Capstone Build 1 — World & Species.*
+> *10 code-focused, CBE-aligned questions for Week 45: Capstone Build 1 — World & Species.*
 
 ## Questions
 
-1. Describe the real-world significance of the Mixed marine life for Kenyan marine ecosystems.
-2. How does learning about the Mixed marine life connect to the CBE strand 'Project'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Mixed marine life.
+1. Write a function load_species() that returns a list of species dictionaries.
+2. How do you manage game assets without external images?
+3. What is a world file or level file?
+4. Write code to draw a species at a position from a dictionary.
+5. How would you load species data from a JSON file?
+6. What is the advantage of separating data from code?
+7. Explain how to handle different screen sizes in a game.
+8. How do you verify that all species appear in the world?
+9. What is a configuration file and why use one?
+10. Map capstone world-building to CBE Project/Data outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. def load_species():
+    return [{'name':'mako','speed':5}, {'name':'turtle','speed':2}]
+2. Use shapes, colours, text, and emoji-style drawings.
+3. Data that describes the layout and contents of a game world.
+4. s = species[0]; screen.draw.filled_circle((s['x'], s['y']), s['size'], s['colour'])
+5. import json; data = json.load(open('species.json'))
+6. You can change species without changing the program logic.
+7. Use relative positions or scale based on WIDTH/HEIGHT.
+8. Add temporary labels or print their positions.
+9. A file that sets options without changing code, e.g., difficulty.
+10. Learners build a structured, data-backed digital environment.

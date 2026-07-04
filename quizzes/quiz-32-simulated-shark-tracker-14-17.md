@@ -1,29 +1,33 @@
 # Week 32 Quiz — Simulated Shark Tracker — Ages 14–17
 
-> *10 questions to check understanding of Week 32: Simulated Shark Tracker.*
+> *10 code-focused, CBE-aligned questions for Week 32: Simulated Shark Tracker.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Networks'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. Write Python code that simulates a shark moving randomly in 2D for 50 steps.
+2. What is a random walk and why is it a simple movement model?
+3. How would you add boundaries to a simulation?
+4. Write code to plot a simulated shark path.
+5. What is a seed in a random number generator?
+6. How do you simulate sensor noise?
+7. Explain Monte Carlo methods in one sentence.
+8. Write a function that returns distance from shore given x, y coordinates.
+9. How would you validate a simulation against real data?
+10. Map simulations to CBE Algorithms/Data outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import random
+x, y = 0, 0
+for _ in range(50):
+    x += random.choice([-1,1])
+    y += random.choice([-1,1])
+2. Each step is random; it approximates movement with no preferred direction.
+3. Check if x or y exceeds limits and bounce or clamp.
+4. import matplotlib.pyplot as plt; plt.plot(xs, ys); plt.show()
+5. A starting value that makes randomness reproducible.
+6. Add a small random value to each reading.
+7. Using repeated random sampling to estimate results.
+8. import math; return math.sqrt(x**2 + y**2)
+9. Compare statistics like average speed and range.
+10. Learners model real-world systems using computational methods.

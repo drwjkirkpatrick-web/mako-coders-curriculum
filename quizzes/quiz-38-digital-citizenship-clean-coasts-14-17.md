@@ -1,29 +1,29 @@
 # Week 38 Quiz — Digital Citizenship — Clean Coasts — Ages 14–17
 
-> *10 questions to check understanding of Week 38: Digital Citizenship — Clean Coasts.*
+> *10 code-focused, CBE-aligned questions for Week 38: Digital Citizenship — Clean Coasts.*
 
 ## Questions
 
-1. Describe the real-world significance of the Mangroves for Kenyan marine ecosystems.
-2. How does learning about the Mangroves connect to the CBE strand 'Citizenship'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Mangroves.
+1. Explain netiquette and give two rules.
+2. How can open-source software help environmental projects?
+3. What is a software license and why does it matter?
+4. Write a short acceptable-use policy for a school coding lab.
+5. How do you report harmful content responsibly?
+6. What is algorithmic bias and why is it a citizenship issue?
+7. How can you verify an ocean conservation claim online?
+8. What is the difference between attribution and plagiarism?
+9. Explain how technology can amplify community voices.
+10. Map digital citizenship to CBE Citizenship/Communication outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Network etiquette: be respectful, avoid all-caps, credit sources.
+2. It is free to use, inspect, and improve.
+3. It states how code may be used or shared.
+4. Use school devices for learning; do not install unapproved software; respect others' work.
+5. Use platform reporting tools and tell a trusted adult.
+6. When programs treat groups unfairly; it affects real people's lives.
+7. Check the source, date, and supporting evidence.
+8. Attribution gives credit; plagiarism pretends work is your own.
+9. Social media and websites let local people share their own stories globally.
+10. Learners participate online responsibly and ethically.

@@ -1,29 +1,30 @@
 # Week 28 Quiz — Temperature Watch — Ages 10–13
 
-> *10 questions to check understanding of Week 28: Temperature Watch.*
+> *10 code-focused, CBE-aligned questions for Week 28: Temperature Watch.*
 
 ## Questions
 
-1. What is the Swahili name for the Coral reefs?
-2. Which country does the Coral reefs live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 28?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Coral reefs help us understand coding?
-10. What is one way you can share your project to help others?
+1. Which micro:bit function reads temperature?
+2. What unit does the micro:bit temperature sensor use?
+3. Why is coral temperature important?
+4. Write code to show 'HOT' if temperature is above 30.
+5. What is a threshold?
+6. If the temperature is 29 and the threshold is 28, what should happen?
+7. How do you store a temperature reading for later?
+8. Name one thing you could do if the reef is too warm.
+9. Which block category contains comparison operators?
+10. Which CBE strand links to temperature sensors?
 
 ## Answer Key
 
-1. miamba
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Temperature Watch]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. temperature()
+2. Degrees Celsius.
+3. Too warm can cause coral bleaching.
+4. if temperature() > 30:
+    display.scroll('HOT')
+5. A value that triggers an action when crossed.
+6. Trigger the warm alert.
+7. Append it to a list.
+8. Show a warning light or send a message.
+9. Operators.
+10. Computers / Data.

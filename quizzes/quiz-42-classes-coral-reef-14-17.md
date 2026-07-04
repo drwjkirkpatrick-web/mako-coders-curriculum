@@ -1,29 +1,33 @@
 # Week 42 Quiz — Classes of the Coral Reef — Ages 14–17
 
-> *10 questions to check understanding of Week 42: Classes of the Coral Reef.*
+> *10 code-focused, CBE-aligned questions for Week 42: Classes of the Coral Reef.*
 
 ## Questions
 
-1. Describe the real-world significance of the Coral reefs for Kenyan marine ecosystems.
-2. How does learning about the Coral reefs connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Coral reefs.
+1. Write a Python class Shark with name, x, y, and a swim() method.
+2. What is encapsulation?
+3. What is inheritance and how could it model sea life?
+4. Explain the difference between a class attribute and an instance attribute.
+5. Write code to create a list of 5 Coral objects with random colours.
+6. What is polymorphism?
+7. How do you override a method in Python?
+8. What is __init__ used for?
+9. How would you add collision detection between two objects?
+10. Map classes to CBE Algorithms/Project outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. class Shark:
+    def __init__(self, name, x, y):
+        self.name = name; self.x = x; self.y = y
+    def swim(self):
+        self.x += 1
+2. Keeping data and methods that operate on it together inside a class.
+3. A child class gets attributes from a parent class, e.g., WhaleShark inherits Fish.
+4. Class attributes are shared; instance attributes belong to one object.
+5. import random; corals = [Coral(random.choice(['red','blue']), 10) for _ in range(5)]
+6. Different classes responding to the same method call.
+7. Define a method with the same name in the child class.
+8. It sets up a new object's initial state.
+9. Check if their rectangles or distance overlap.
+10. Learners use object-oriented design to model complex systems.

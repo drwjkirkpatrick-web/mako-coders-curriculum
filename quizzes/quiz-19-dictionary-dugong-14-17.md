@@ -1,29 +1,29 @@
 # Week 19 Quiz — Dictionary of the Dugong — Ages 14–17
 
-> *10 questions to check understanding of Week 19: Dictionary of the Dugong.*
+> *10 code-focused, CBE-aligned questions for Week 19: Dictionary of the Dugong.*
 
 ## Questions
 
-1. Describe the real-world significance of the Dugong for Kenyan marine ecosystems.
-2. How does learning about the Dugong connect to the CBE strand 'Data'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used variables, lists, dictionaries, and visualisation in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching text-based Python and data structures.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Dugong.
+1. Write a Python dictionary that maps three Kenyan species to their IUCN status.
+2. What is a key-value pair?
+3. How is a dictionary implemented in Python?
+4. Write code that safely reads a value, defaulting to 'unknown' if the key is missing.
+5. How do you loop over both keys and values?
+6. What makes a dictionary key valid?
+7. Write a dictionary comprehension that counts letters in a word.
+8. Explain when to use a dict instead of a list.
+9. How would you merge two dictionaries?
+10. Map dictionaries to a CBE Data strand outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to text-based Python and data structures]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. status = {'mako': 'VU', 'green_turtle': 'EN', 'whale_shark': 'EN'}
+2. A key that identifies an item and a value that stores its data.
+3. As a hash table for fast key lookup.
+4. status.get('dugong', 'unknown')
+5. for species, st in status.items(): ...
+6. It must be hashable, like a string, number, or tuple.
+7. {letter: word.count(letter) for letter in set(word)}
+8. Use a dict for labelled lookup; use a list for ordered sequences.
+9. Use update() or {**a, **b}.
+10. Learners store and retrieve structured data using labelled keys.

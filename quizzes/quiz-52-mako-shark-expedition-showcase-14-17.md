@@ -1,29 +1,29 @@
 # Week 52 Quiz — Mako Shark Expedition Showcase — Ages 14–17
 
-> *10 questions to check understanding of Week 52: Mako Shark Expedition Showcase.*
+> *10 code-focused, CBE-aligned questions for Week 52: Mako Shark Expedition Showcase.*
 
 ## Questions
 
-1. Describe the real-world significance of the All species for Kenyan marine ecosystems.
-2. How does learning about the All species connect to the CBE strand 'Citizenship'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All species.
+1. Write a one-paragraph reflection on completing the Mako Shark Expedition.
+2. How would you continue the project after the course ends?
+3. What is the social impact of your capstone?
+4. How do you measure whether the project met its learning goals?
+5. Explain one trade-off you made during development.
+6. What would you do differently in a future team project?
+7. How does open-source sharing align with conservation goals?
+8. What is your strongest technical achievement?
+9. How do you plan to keep learning coding after this course?
+10. Map the capstone showcase to overall CBE outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. [Teacher checks: reflection]
+2. Add more species, real data, or publish it.
+3. It raises awareness of Kenyan marine conservation.
+4. Compare features to the brief and assess feedback.
+5. [Teacher checks: trade-off]
+6. [Teacher checks: improvement]
+7. It lets others build on and spread the work.
+8. [Teacher checks: achievement]
+9. [Teacher checks: plan]
+10. Learners integrate competencies to create and share a meaningful digital solution.

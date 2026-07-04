@@ -1,29 +1,29 @@
 # Week 02 Quiz — Turtle Beach — Sequencing — Ages 14–17
 
-> *10 questions to check understanding of Week 02: Turtle Beach — Sequencing.*
+> *10 code-focused, CBE-aligned questions for Week 02: Turtle Beach — Sequencing.*
 
 ## Questions
 
-1. Describe the real-world significance of the Green sea turtle for Kenyan marine ecosystems.
-2. How does learning about the Green sea turtle connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Green sea turtle.
+1. Write Python code to move a turtle forward 100 pixels, turn left 90 degrees, and move forward 100 pixels again.
+2. Why is a sequence's order non-negotiable for a computer?
+3. Convert these Scratch blocks to pseudocode: when green flag clicked → move 10 steps → turn 15 degrees → say 'Done'.
+4. What is the output of this Python sequence? x = 5; x = x + 2; print(x)
+5. Give a real-world example of a sequence where order matters.
+6. In a flowchart, what shape usually represents a process/step?
+7. What happens if a 'wait' block is placed at the start instead of between actions?
+8. Write a sequence that draws an equilateral triangle using Python Turtle.
+9. How can you test a long sequence for errors?
+10. Name the CBE strand for sequencing and give one competency it builds.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import turtle; t = turtle.Turtle(); t.forward(100); t.left(90); t.forward(100)
+2. Computers execute instructions sequentially; changing order changes output.
+3. START; move 10; turn 15; output 'Done'; END.
+4. 7
+5. Baking a cake, launching a rocket, or a medical checklist.
+6. Rectangle.
+7. The sprite waits before doing anything else.
+8. for _ in range(3): t.forward(100); t.left(120)
+9. Run it step by step or add temporary pause blocks.
+10. Algorithms strand; builds logical thinking and problem solving.

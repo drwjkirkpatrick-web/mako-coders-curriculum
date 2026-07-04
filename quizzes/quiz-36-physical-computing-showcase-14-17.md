@@ -1,29 +1,29 @@
 # Week 36 Quiz — Physical Computing Showcase — Ages 14–17
 
-> *10 questions to check understanding of Week 36: Physical Computing Showcase.*
+> *10 code-focused, CBE-aligned questions for Week 36: Physical Computing Showcase.*
 
 ## Questions
 
-1. Describe the real-world significance of the Mixed marine life for Kenyan marine ecosystems.
-2. How does learning about the Mixed marine life connect to the CBE strand 'Creativity'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Mixed marine life.
+1. Write a short project pitch for a physical computing showcase.
+2. How do you plan a hardware demo to avoid failure?
+3. What is a schematic?
+4. Explain the difference between firmware and software.
+5. How would you combine sensor input and radio output in one project?
+6. What is user testing for hardware?
+7. How do you document a hardware build?
+8. Name two constraints that affect hardware choices in a Kenyan school.
+9. What is a fail-safe and why does it matter for environmental sensors?
+10. Map physical computing showcase to CBE competencies.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. My project monitors reef temperature and flashes a warning if it gets too hot, helping protect coral.
+2. Test in the real environment, bring backups, and have a video fallback.
+3. A diagram of how electronic components connect.
+4. Firmware runs on hardware devices; software runs on general computers.
+5. Read a sensor, decide if an alert is needed, then broadcast a message.
+6. Watching real users interact with the device and noting problems.
+7. Photos, wiring diagram, code, and a short README.
+8. Cost, power supply, internet access, durability.
+9. A behaviour that keeps the system safe if something goes wrong.
+10. Creativity, Critical Thinking, Communication, Digital Literacy.

@@ -1,29 +1,29 @@
 # Week 11 Quiz — Decompose a Turtle Rescue — Ages 10–13
 
-> *10 questions to check understanding of Week 11: Decompose a Turtle Rescue.*
+> *10 code-focused, CBE-aligned questions for Week 11: Decompose a Turtle Rescue.*
 
 ## Questions
 
-1. What is the Swahili name for the Green sea turtle?
-2. Which country does the Green sea turtle live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 11?
-5. What is one new word or idea we learned this week about sequencing, loops, events, and debugging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Green sea turtle help us understand coding?
-10. What is one way you can share your project to help others?
+1. What does 'decomposition' mean?
+2. Give the four main steps in a turtle rescue project.
+3. Why is it easier to code small parts instead of one giant script?
+4. Which Scratch block helps you reuse a small script?
+5. Name two sub-tasks of 'build an ocean scene'.
+6. What is a sub-task?
+7. How would you decompose making a game?
+8. Write three sub-tasks for a beach-cleanup animation.
+9. What do you do after decomposing a problem?
+10. Which CBE strand uses decomposition to plan algorithms?
 
 ## Answer Key
 
-1. kobe ya kijani
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Scratch 3
-5. [Teacher checks: concept from Decompose a Turtle Rescue]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for block-based coding in Scratch.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Breaking a big problem into smaller parts.
+2. Find turtle, check health, move safely, release to sea.
+3. Each part is simpler to understand and test.
+4. My Blocks / Make a Block.
+5. Add background, add sprites, animate movement.
+6. A small job that is part of a bigger job.
+7. Design, code, test, share.
+8. 1. Move character; 2. Pick up trash; 3. Update score.
+9. Solve each sub-task, then combine them.
+10. Algorithms.

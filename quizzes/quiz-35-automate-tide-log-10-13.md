@@ -1,29 +1,30 @@
 # Week 35 Quiz — Automate the Tide Log — Ages 10–13
 
-> *10 questions to check understanding of Week 35: Automate the Tide Log.*
+> *10 code-focused, CBE-aligned questions for Week 35: Automate the Tide Log.*
 
 ## Questions
 
-1. What is the Swahili name for the Seagrass beds?
-2. Which country does the Seagrass beds live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 35?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Seagrass beds help us understand coding?
-10. What is one way you can share your project to help others?
+1. What does 'automate' mean?
+2. Which Python function writes text to a file?
+3. Write code to append a tide height to a file.
+4. What does 'a' mean in open('log.txt', 'a')?
+5. Why is it useful to log data automatically?
+6. What is a file?
+7. What happens if you open a file in 'w' mode?
+8. How do you read all lines from a file?
+9. Name one thing you could log every hour in an ocean project.
+10. Which CBE strand links to automation?
 
 ## Answer Key
 
-1. mwani wa baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Automate the Tide Log]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Make a computer do a task by itself.
+2. file.write()
+3. with open('tides.txt', 'a') as f:
+    f.write('1.2\n')
+4. Append mode — add to the end without deleting.
+5. You do not forget and the data is always saved.
+6. A saved collection of data on a computer.
+7. It overwrites the old contents.
+8. file.readlines()
+9. Tide height, temperature, or animal sightings.
+10. Algorithms / Computers.

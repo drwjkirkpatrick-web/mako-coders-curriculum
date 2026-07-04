@@ -1,29 +1,33 @@
 # Week 14 Quiz — From Blocks to Text — Ages 14–17
 
-> *10 questions to check understanding of Week 14: From Blocks to Text.*
+> *10 code-focused, CBE-aligned questions for Week 14: From Blocks to Text.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Digital Literacy'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used variables, lists, dictionaries, and visualisation in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching text-based Python and data structures.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. Convert this Scratch block to Python: set x to 0.
+2. Convert this Scratch block to Python: repeat until touching edge.
+3. What is a REPL?
+4. Why is Python case-sensitive?
+5. What is the difference between an interpreted and a compiled language?
+6. Write the Python equivalent of 'if x > 10 then say big else say small'.
+7. What is a syntax error and how is it shown?
+8. Why are comments useful when switching from blocks to text?
+9. Write a Python comment that describes a loop.
+10. Map the blocks-to-text transition to a CBE Digital Literacy outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to text-based Python and data structures]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. x = 0
+2. while not touching_edge():
+    move()
+3. Read-Eval-Print Loop — an interactive coding environment.
+4. Variable names like 'score' and 'Score' are different.
+5. Interpreted runs line by line; compiled is translated to machine code first.
+6. if x > 10:
+    print('big')
+else:
+    print('small')
+7. A mistake in grammar; Python prints a red error message.
+8. They explain what the code does in words.
+9. # Move the turtle in a circle
+10. Learners use multiple coding environments to solve problems.

@@ -1,29 +1,29 @@
 # Week 22 Quiz — Survey Data — 2023 Aerial Count — Ages 14–17
 
-> *10 questions to check understanding of Week 22: Survey Data — 2023 Aerial Count.*
+> *10 code-focused, CBE-aligned questions for Week 22: Survey Data — 2023 Aerial Count.*
 
 ## Questions
 
-1. Describe the real-world significance of the All megafauna for Kenyan marine ecosystems.
-2. How does learning about the All megafauna connect to the CBE strand 'Data'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used variables, lists, dictionaries, and visualisation in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching text-based Python and data structures.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All megafauna.
+1. How would you store 2023 aerial survey data in Python?
+2. Write Python code to read a CSV file using the standard library.
+3. What is the difference between a sample and a population in a survey?
+4. How do you calculate the average sightings per day from a list?
+5. Write code to find the day with the most sightings.
+6. What is a pandas DataFrame and why is it useful?
+7. Explain why data cleaning is important.
+8. Write code to filter survey rows where species == 'whale_shark'.
+9. What is metadata? Give an example.
+10. Map survey data to a CBE Data outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to text-based Python and data structures]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. As a CSV file or a list of dictionaries.
+2. import csv; rows = list(csv.reader(open('survey.csv')))
+3. A population is all items; a sample is a subset.
+4. sum(sightings) / len(sightings)
+5. max(sightings)
+6. A 2D table structure with labels; good for analysis.
+7. Errors or missing values can make analysis wrong.
+8. df[df['species'] == 'whale_shark']
+9. Data about data, e.g., date, location, observer name.
+10. Learners collect, clean, and summarise real-world data sets.

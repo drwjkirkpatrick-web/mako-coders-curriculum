@@ -24,7 +24,7 @@
 2. **CBE-aligned from day one.** Each lesson maps to a CBE strand, develops the 7 core competencies, and uses the BE/AE/ME/EE rubric.
 3. **Offline-ready.** The curriculum assumes intermittent connectivity. Scratch offline editor, Python on Raspberry Pi / old laptops, and micro:bit simulators are all valid pathways.
 4. **Final project with purpose.** The Mako Shark Expedition teaches learners to combine loops, conditionals, functions, data, and conservation messaging into a playable or explorable artifact.
-5. **Built-in assessment for two age bands.** Every lesson includes an Extra Credit Challenge, a Homework Assignment, and two 10-question quizzes — one for ages 10–13 and one for ages 14–17 — complete with answer keys.
+5. **Built-in assessment for two age bands.** Every lesson includes an Extra Credit Challenge, a Homework Assignment, and two 10-question quizzes — one for ages 10–13 and one for ages 14–17. The quizzes are code-focused and mapped to CBE strands, with answer keys and auto-scoring through the local dashboard.
 
 ---
 
@@ -142,9 +142,9 @@ Every lesson plan contains:
 - a criterion-based assessment table
 - an **Extra Credit Challenge** for early finishers
 - a **Homework Assignment** to reinforce the week's concept
-- two **Weekly Quizzes** (ages 10–13 and 14–17) with answer keys
+- two **Weekly Quizzes** (ages 10–13 and 14–17) with code-focused questions, answer keys, and CBE strand mapping
 
-The progress tracker auto-awards badges when learners reach ME or EE.
+The progress tracker auto-awards badges when learners reach ME or EE. The dashboard auto-scores quiz answers against each answer key.
 
 ---
 

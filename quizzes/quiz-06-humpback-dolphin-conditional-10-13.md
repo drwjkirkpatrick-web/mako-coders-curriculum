@@ -1,29 +1,29 @@
 # Week 06 Quiz — If It's a Humpback Dolphin… — Ages 10–13
 
-> *10 questions to check understanding of Week 06: If It's a Humpback Dolphin….*
+> *10 code-focused, CBE-aligned questions for Week 06: If It's a Humpback Dolphin….*
 
 ## Questions
 
-1. What is the Swahili name for the Indian Ocean humpback dolphin?
-2. Which country does the Indian Ocean humpback dolphin live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 06?
-5. What is one new word or idea we learned this week about sequencing, loops, events, and debugging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Indian Ocean humpback dolphin help us understand coding?
-10. What is one way you can share your project to help others?
+1. Which Scratch block lets a sprite decide between two actions?
+2. What does an 'if' block check?
+3. If a sprite touches a humpback dolphin, what should happen?
+4. Which block reports whether a sprite is touching another sprite?
+5. Write a conditional script: if touching edge, then bounce, else move 10.
+6. What is a Boolean value?
+7. What happens if the 'if' condition is false and there is no 'else'?
+8. Which operator block checks if two numbers are equal?
+9. Give one ocean-themed condition you could test in Scratch.
+10. Why are conditionals useful in a dolphin identification project?
 
 ## Answer Key
 
-1. pomboo ya Bahari Hindi
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Scratch 3
-5. [Teacher checks: concept from If It's a Humpback Dolphin…]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for block-based coding in Scratch.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. if ... then ... else
+2. A condition that is true or false.
+3. Play a sound, say something, or change direction.
+4. touching mouse-pointer? / touching [sprite]?
+5. Forever: if touching edge then bounce else move 10 steps.
+6. A value that is either true or false.
+7. Nothing inside the if block runs.
+8. _ = _
+9. If water temperature > 25, show 'warm reef' message.
+10. They let the program choose different outputs based on input.

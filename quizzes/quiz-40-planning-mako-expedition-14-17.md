@@ -1,29 +1,29 @@
 # Week 40 Quiz — Planning the Mako Shark Expedition — Ages 14–17
 
-> *10 questions to check understanding of Week 40: Planning the Mako Shark Expedition.*
+> *10 code-focused, CBE-aligned questions for Week 40: Planning the Mako Shark Expedition.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Project'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. Write a one-page project brief for the Mako Shark Expedition.
+2. What is scope creep and how do you avoid it?
+3. How would you decompose the capstone into 4 weekly sprints?
+4. What is a user persona?
+5. How do you choose between Pygame Zero and a web dashboard for the capstone?
+6. Write a risk register entry for a capstone project.
+7. Explain how to align capstone features with CBE outcomes.
+8. What version control practice helps a team project?
+9. How do you decide which language/framework to use?
+10. Map capstone planning to CBE Project outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Goal, audience, features, data sources, timeline, and success criteria.
+2. Adding too many features; define MVP and stick to it.
+3. Week 1: world + species; Week 2: interactions; Week 3: data + conservation; Week 4: polish.
+4. A fictional user that represents your target audience.
+5. Pygame Zero is simpler for games; web dashboards are easier to share.
+6. Risk: missing assets. Mitigation: use shapes/text instead of images.
+7. Each feature should demonstrate a target competency.
+8. Regular commits and clear commit messages.
+9. Based on learner skills, hardware, and project goals.
+10. Learners plan, resource, and manage a complex coding project.

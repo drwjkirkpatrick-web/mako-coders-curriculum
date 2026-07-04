@@ -1,29 +1,29 @@
 # Week 05 Quiz — Coral Patterns — Nested Loops — Ages 10–13
 
-> *10 questions to check understanding of Week 05: Coral Patterns — Nested Loops.*
+> *10 code-focused, CBE-aligned questions for Week 05: Coral Patterns — Nested Loops.*
 
 ## Questions
 
-1. What is the Swahili name for the Hawksbill sea turtle?
-2. Which country does the Hawksbill sea turtle live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 05?
-5. What is one new word or idea we learned this week about sequencing, loops, events, and debugging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Hawksbill sea turtle help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a nested loop?
+2. If the outer loop repeats 3 times and the inner loop repeats 4 times, how many times does the inner block run?
+3. Which block would you put inside which to draw a grid of coral?
+4. Draw the pattern made by: repeat 2 [ repeat 3 [stamp] move 20 ] turn 90.
+5. Why is a nested loop useful for drawing coral reefs?
+6. How many total stamps if repeat 4 contains repeat 5 contains stamp?
+7. What changes between the inner loop and outer loop in a grid?
+8. Write nested Scratch blocks to draw a 3x3 grid of coral squares.
+9. What happens if you forget to move the turtle between inner loops?
+10. Name the CBE competency built by planning nested patterns.
 
 ## Answer Key
 
-1. kobe ya pwani
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Scratch 3
-5. [Teacher checks: concept from Coral Patterns — Nested Loops]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for block-based coding in Scratch.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. A loop inside another loop.
+2. 12 times.
+3. Put the row loop inside the column loop, or vice versa.
+4. Two rows of three stamps each, rotated.
+5. It repeats shapes across rows and columns.
+6. 20 stamps.
+7. The outer loop usually changes rows; the inner loop changes columns.
+8. Repeat 3 rows: repeat 3 columns: draw square, move right; move to next row.
+9. The shapes overlap.
+10. Critical Thinking / Creativity.

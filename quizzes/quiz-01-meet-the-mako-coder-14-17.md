@@ -1,29 +1,29 @@
 # Week 01 Quiz — Meet the Mako Coder — Ages 14–17
 
-> *10 questions to check understanding of Week 01: Meet the Mako Coder.*
+> *10 code-focused, CBE-aligned questions for Week 01: Meet the Mako Coder.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Digital Literacy'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. What are the five RPF Digital Making strands?
+2. Explain the difference between hardware and software using one example of each.
+3. Write the command to print 'Mako shark' in Python.
+4. Why should you keep backup copies of your project?
+5. What is the CBE 2-6-3-3 structure in Kenyan education?
+6. Name two of the seven CBE core competencies.
+7. Which HTML tag would you use to make a heading on a simple report page?
+8. What does the CPU do?
+9. Why is a folder structure useful for coding projects?
+10. Give one example of being a responsible digital citizen while sharing code online.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Design, Code, Create, Connect, Evaluate.
+2. Hardware is physical (e.g., micro:bit); software is programs (e.g., Scratch editor).
+3. print('Mako shark')
+4. To recover work if a file is deleted or corrupted.
+5. 2 years pre-primary, 6 primary, 3 junior school, 3 senior school.
+6. Communication, Critical Thinking, Creativity, Collaboration, Digital Literacy, Citizenship, Learning to Learn.
+7. <h1>
+8. It processes instructions from programs.
+9. It groups related files and makes projects easier to navigate.
+10. Use a clear license, give credit, and do not share private data.

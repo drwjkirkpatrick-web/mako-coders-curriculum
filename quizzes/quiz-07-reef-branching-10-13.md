@@ -1,29 +1,29 @@
 # Week 07 Quiz — Reef Branching — If-Else Ladders — Ages 10–13
 
-> *10 questions to check understanding of Week 07: Reef Branching — If-Else Ladders.*
+> *10 code-focused, CBE-aligned questions for Week 07: Reef Branching — If-Else Ladders.*
 
 ## Questions
 
-1. What is the Swahili name for the Coral reefs?
-2. Which country does the Coral reefs live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 07?
-5. What is one new word or idea we learned this week about sequencing, loops, events, and debugging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Coral reefs help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is an if-else ladder?
+2. Why would you use more than one 'if' block in a reef project?
+3. Put these in order: check whale shark, check turtle, check dolphin, else unknown.
+4. Which block lets you add more than one condition in Scratch?
+5. What should the final 'else' do in a species identifier?
+6. How many branches can an if-else ladder have?
+7. Write a ladder that chooses coral colour by depth: shallow pink, mid blue, deep purple.
+8. What happens if two 'if' conditions are both true?
+9. Why is the order of conditions important in a ladder?
+10. Give one real-world use of branching in ocean technology.
 
 ## Answer Key
 
-1. miamba
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Scratch 3
-5. [Teacher checks: concept from Reef Branching — If-Else Ladders]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for block-based coding in Scratch.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Many 'if/else' checks one after another.
+2. To identify different species or conditions.
+3. First if whale shark, elif turtle, elif dolphin, else unknown.
+4. if ... then ... else, plus nested if blocks.
+5. Say 'I do not know' or ask again.
+6. As many as you need.
+7. if depth < 5: pink; elif depth < 15: blue; else: purple.
+8. Both blocks run unless you use if/elif.
+9. Earlier conditions catch cases first.
+10. A buoy turns red light on at night, green light by day.

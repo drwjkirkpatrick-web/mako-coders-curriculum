@@ -1,29 +1,32 @@
 # Week 44 Quiz — Events and the Game Loop — Ages 14–17
 
-> *10 questions to check understanding of Week 44: Events and the Game Loop.*
+> *10 code-focused, CBE-aligned questions for Week 44: Events and the Game Loop.*
 
 ## Questions
 
-1. Describe the real-world significance of the Shortfin mako shark for Kenyan marine ecosystems.
-2. How does learning about the Shortfin mako shark connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Shortfin mako shark.
+1. Write the skeleton of a Pygame Zero game with update() and draw() functions.
+2. What is the difference between update() and draw() in a game loop?
+3. How do you keep movement frame-rate independent?
+4. Explain collision detection in a 2D game.
+5. Write code to clamp a value between a minimum and maximum.
+6. What is a state machine and how does it help game design?
+7. How would you handle multiple key presses at once?
+8. What is double buffering and why is it used?
+9. Write code to detect when a shark leaves the screen.
+10. Map game loops to CBE Algorithms outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import pgzrun
+def update(): pass
+def draw(): screen.fill('black')
+pgzrun.go()
+2. update() changes state; draw() renders the current state.
+3. Multiply speed by delta time.
+4. Check if the bounding boxes or circles of two objects overlap.
+5. x = max(min_x, min(x, max_x))
+6. A model with distinct states like 'menu', 'playing', 'game over'.
+7. Track key states in a dictionary or use built-in keyboard properties.
+8. Drawing to an off-screen buffer to prevent flickering.
+9. if shark.x < 0 or shark.x > WIDTH: shark.x = WIDTH/2
+10. Learners implement real-time interactive programs.

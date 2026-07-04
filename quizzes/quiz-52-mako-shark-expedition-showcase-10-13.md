@@ -1,29 +1,29 @@
 # Week 52 Quiz — Mako Shark Expedition Showcase — Ages 10–13
 
-> *10 questions to check understanding of Week 52: Mako Shark Expedition Showcase.*
+> *10 code-focused, CBE-aligned questions for Week 52: Mako Shark Expedition Showcase.*
 
 ## Questions
 
-1. What is the Swahili name for the All species?
-2. Which country does the All species live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 52?
-5. What is one new word or idea we learned this week about functions, classes, game loops, and conservation messaging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the All species help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is the final project called?
+2. Name one thing your project teaches about the ocean.
+3. What did you enjoy most while building it?
+4. What is one skill you improved?
+5. How does your project help ocean conservation?
+6. What is one piece of feedback you used?
+7. Name one coding concept you used in the project.
+8. What would you add if you had more time?
+9. How did you work with classmates?
+10. Which CBE strand is most important in the showcase?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Pygame Zero
-5. [Teacher checks: concept from Mako Shark Expedition Showcase]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for capstone project development.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Mako Shark Expedition.
+2. [Teacher checks: conservation or species fact]
+3. [Teacher checks: student reflection]
+4. [Teacher checks: coding or soft skill]
+5. [Teacher checks: awareness/action]
+6. [Teacher checks: feedback applied]
+7. Loops, variables, functions, classes.
+8. [Teacher checks: future improvement]
+9. [Teacher checks: collaboration]
+10. Citizenship / Communication / Project.

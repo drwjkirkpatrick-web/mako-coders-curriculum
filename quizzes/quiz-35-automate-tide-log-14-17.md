@@ -1,29 +1,32 @@
 # Week 35 Quiz — Automate the Tide Log — Ages 14–17
 
-> *10 questions to check understanding of Week 35: Automate the Tide Log.*
+> *10 code-focused, CBE-aligned questions for Week 35: Automate the Tide Log.*
 
 ## Questions
 
-1. Describe the real-world significance of the Seagrass beds for Kenyan marine ecosystems.
-2. How does learning about the Seagrass beds connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Seagrass beds.
+1. Write a Python script that appends the current time and tide height to a CSV file.
+2. What is the difference between CSV and JSON file formats?
+3. How would you schedule a Python script to run every hour on Linux?
+4. Explain file handling context managers and why to use them.
+5. Write code that reads a log and counts how many readings exceeded 2 metres.
+6. What is log rotation?
+7. How do you avoid data loss if a program crashes while writing a file?
+8. What is a timestamp and why include it in logs?
+9. How would you parse a CSV log into a list of dictionaries?
+10. Map file automation to CBE Algorithms/Data outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import datetime
+with open('tides.csv','a') as f:
+    f.write(f'{datetime.now().isoformat()},1.2\n')
+2. CSV is rows of comma-separated values; JSON is structured key-value pairs.
+3. Use cron: 0 * * * * python3 script.py
+4. with open(...) automatically closes the file even if an error occurs.
+5. with open('tides.txt') as f:
+    count = sum(1 for line in f if float(line.strip()) > 2)
+6. Archiving old log files so current logs stay small.
+7. Write to a temporary file, then rename it.
+8. It records exactly when each entry was created.
+9. Use csv.DictReader.
+10. Learners write programs that persist and process data over time.

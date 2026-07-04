@@ -1,29 +1,29 @@
 # Week 04 Quiz — Dolphin Loops — Ages 14–17
 
-> *10 questions to check understanding of Week 04: Dolphin Loops.*
+> *10 code-focused, CBE-aligned questions for Week 04: Dolphin Loops.*
 
 ## Questions
 
-1. Describe the real-world significance of the Spinner dolphin for Kenyan marine ecosystems.
-2. How does learning about the Spinner dolphin connect to the CBE strand 'Algorithms'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Spinner dolphin.
+1. Write a Python for-loop that prints the numbers 1 to 10.
+2. What is the difference between a for-loop and a while-loop?
+3. How many times does this loop run? for i in range(5):
+4. Write code that uses a loop to draw a 10-sided regular polygon.
+5. What is an infinite loop and why should you avoid it?
+6. In Scratch, how would you repeat an action until a sprite reaches the edge?
+7. What value does the loop counter hold after 'for i in range(3)' finishes?
+8. Write pseudocode for a loop that counts down from 10 to 1.
+9. Which CBE strand connects loops to solving repetitive problems?
+10. Explain how a loop reduces code duplication in an ocean animation.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. for i in range(1, 11): print(i)
+2. A for-loop repeats a known number of times; a while-loop repeats while a condition is true.
+3. 5 times (i = 0,1,2,3,4).
+4. import turtle; for _ in range(10): t.forward(40); t.left(36)
+5. A loop that never ends; it can freeze the program.
+6. Repeat until touching edge: do the action.
+7. The last value is 2; after the loop i is 2 in scope.
+8. FOR i FROM 10 DOWNTO 1: PRINT i; END FOR.
+9. Algorithms.
+10. One move/turn block inside a repeat draws many shapes instead of many separate blocks.

@@ -1,29 +1,29 @@
 # Week 36 Quiz — Physical Computing Showcase — Ages 10–13
 
-> *10 questions to check understanding of Week 36: Physical Computing Showcase.*
+> *10 code-focused, CBE-aligned questions for Week 36: Physical Computing Showcase.*
 
 ## Questions
 
-1. What is the Swahili name for the Mixed marine life?
-2. Which country does the Mixed marine life live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 36?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Mixed marine life help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is physical computing?
+2. Name two micro:bit projects from this term.
+3. What should you do before demonstrating a hardware project?
+4. How do you explain your micro:bit project to a visitor?
+5. What is one safety rule for hardware projects?
+6. Which block sends a radio message?
+7. Name one input and one output in your showcase.
+8. Why is a showcase useful for learning?
+9. What is a demo?
+10. Which CBE strand links to showcases?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Physical Computing Showcase]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Using code to control real-world objects like lights and sensors.
+2. Temperature watch, tide-guard light, compass dolphin, radio tag.
+3. Test all parts.
+4. Say what it does and what problem it solves.
+5. Keep water away from electronics.
+6. radio.send()
+7. [Teacher checks: input and output from the student's project]
+8. You share ideas and get feedback.
+9. A short live show of how something works.
+10. Creativity / Communication.

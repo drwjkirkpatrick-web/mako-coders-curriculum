@@ -1,29 +1,29 @@
 # Week 38 Quiz — Digital Citizenship — Clean Coasts — Ages 10–13
 
-> *10 questions to check understanding of Week 38: Digital Citizenship — Clean Coasts.*
+> *10 code-focused, CBE-aligned questions for Week 38: Digital Citizenship — Clean Coasts.*
 
 ## Questions
 
-1. What is the Swahili name for the Mangroves?
-2. Which country does the Mangroves live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 38?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Mangroves help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is digital citizenship?
+2. Give one example of being kind online.
+3. What should you do if you see cyberbullying?
+4. Why should you not copy someone else's project?
+5. What does 'give credit' mean?
+6. How can technology help clean coasts?
+7. What is one way technology can harm nature?
+8. Why should you check facts before sharing?
+9. What is a digital footprint?
+10. Which CBE strand links to digital citizenship?
 
 ## Answer Key
 
-1. mikoko
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Digital Citizenship — Clean Coasts]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Being safe, kind, and responsible online.
+2. Writing positive comments.
+3. Tell a trusted adult.
+4. It is their work, not yours.
+5. Say who made the original work.
+6. Apps can report trash locations.
+7. Spreading false information or sharing secret animal locations.
+8. So you do not spread misinformation.
+9. The record of what you do online.
+10. Citizenship.

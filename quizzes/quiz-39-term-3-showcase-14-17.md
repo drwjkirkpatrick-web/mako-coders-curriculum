@@ -1,29 +1,29 @@
 # Week 39 Quiz — Term 3 Showcase & Reflection — Ages 14–17
 
-> *10 questions to check understanding of Week 39: Term 3 Showcase & Reflection.*
+> *10 code-focused, CBE-aligned questions for Week 39: Term 3 Showcase & Reflection.*
 
 ## Questions
 
-1. Describe the real-world significance of the Mixed marine life for Kenyan marine ecosystems.
-2. How does learning about the Mixed marine life connect to the CBE strand 'Learning to Learn'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Mixed marine life.
+1. Reflect on one hardware/network project. What worked and what did not?
+2. How would you explain a network protocol to a beginner?
+3. What is one limitation of micro:bit radio that affects design?
+4. How did you make your project usable for others?
+5. What security or privacy concern did you consider?
+6. How do you measure success for a creative tech project?
+7. What transferable skill from this term helps outside coding?
+8. How would you pitch your project to a conservation group?
+9. What documentation did you write?
+10. Which CBE strand was the focus of your showcase?
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. [Teacher checks: reflection]
+2. A set of rules so devices can talk, like a shared language.
+3. Short range and possible interference.
+4. Clear instructions, simple interface, helpful messages.
+5. [Teacher checks: concern]
+6. Does it work, is it usable, does it meet the brief?
+7. Problem solving, planning, or teamwork.
+8. Explain the problem it solves and show a working demo.
+9. [Teacher checks: docs]
+10. [Teacher checks: strand]

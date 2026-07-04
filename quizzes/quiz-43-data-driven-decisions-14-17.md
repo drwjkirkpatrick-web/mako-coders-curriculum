@@ -1,29 +1,32 @@
 # Week 43 Quiz — Data-Driven Decisions — Ages 14–17
 
-> *10 questions to check understanding of Week 43: Data-Driven Decisions.*
+> *10 code-focused, CBE-aligned questions for Week 43: Data-Driven Decisions.*
 
 ## Questions
 
-1. Describe the real-world significance of the All species for Kenyan marine ecosystems.
-2. How does learning about the All species connect to the CBE strand 'Data'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used functions, classes, game loops, and conservation messaging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching capstone project development.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the All species.
+1. Write a Python function that recommends a conservation action based on population trend.
+2. What is a false positive and a false negative in decision systems?
+3. How would you visualise a time series of turtle nest counts?
+4. Explain the difference between correlation and causation.
+5. Write code to find the month with the highest plastic collection.
+6. What is a dashboard and why is it useful?
+7. How do you handle conflicting data sources?
+8. What is a confidence interval in simple terms?
+9. How would you turn data into a recommendation?
+10. Map data-driven decisions to CBE Data/Critical Thinking outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to capstone project development]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. def action(trend):
+    if trend < -0.1: return 'urgent protection'
+    elif trend < 0: return 'monitor'
+    else: return 'stable'
+2. False positive: alert when nothing is wrong. False negative: miss a real problem.
+3. Line plot with date on x-axis and count on y-axis.
+4. Correlation means variables move together; causation means one causes the other.
+5. max(collections, key=lambda m: collections[m])
+6. A live display of key metrics; it helps monitor situations quickly.
+7. Check methodology, recency, and source credibility.
+8. A range that likely contains the true value.
+9. Analyse trends, identify thresholds, and propose an action.
+10. Learners use evidence to make and justify decisions.

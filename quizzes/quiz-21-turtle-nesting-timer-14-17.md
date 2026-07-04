@@ -1,29 +1,29 @@
 # Week 21 Quiz — Turtle Nesting Timer — Ages 14–17
 
-> *10 questions to check understanding of Week 21: Turtle Nesting Timer.*
+> *10 code-focused, CBE-aligned questions for Week 21: Turtle Nesting Timer.*
 
 ## Questions
 
-1. Describe the real-world significance of the Green sea turtle for Kenyan marine ecosystems.
-2. How does learning about the Green sea turtle connect to the CBE strand 'Data'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used variables, lists, dictionaries, and visualisation in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching text-based Python and data structures.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Green sea turtle.
+1. Write Python code to wait for 2 seconds.
+2. How do you record the current time in Python?
+3. Write code that prints how long a block of code took to run.
+4. What is epoch time?
+5. How would you format a timestamp into a readable date?
+6. Explain why timestamps are important in data logging.
+7. Write a function that returns True if a turtle nesting took longer than 2 hours.
+8. What is the difference between time.sleep() and a busy-wait loop?
+9. How would you schedule a script to run every hour?
+10. Map timers and timestamps to a CBE Data outcome.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to text-based Python and data structures]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. import time; time.sleep(2)
+2. import time; start = time.time()
+3. start = time.time(); ...; print(time.time() - start)
+4. Seconds since 1 January 1970.
+5. import datetime; datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+6. They show exactly when each measurement was taken.
+7. def long_nest(seconds): return seconds > 7200
+8. sleep() pauses efficiently; busy-waste wastes CPU.
+9. Use a loop with time.sleep(3600) or a scheduler like cron.
+10. Learners record and use time-based data.

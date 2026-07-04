@@ -1,29 +1,29 @@
 # Week 15 Quiz — Data Types of the Deep — Ages 10–13
 
-> *10 questions to check understanding of Week 15: Data Types of the Deep.*
+> *10 code-focused, CBE-aligned questions for Week 15: Data Types of the Deep.*
 
 ## Questions
 
-1. What is the Swahili name for the Whale shark?
-2. Which country does the Whale shark live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 15?
-5. What is one new word or idea we learned this week about variables, lists, dictionaries, and visualisation?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Whale shark help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a string?
+2. What is a number called in programming?
+3. Which data type would you use for a species name?
+4. Which data type would you use for a shark's length in metres?
+5. What does this code do? length = 12
+6. What is a Boolean?
+7. Give one example of True/False data in an ocean project.
+8. What happens if you try to add a string and a number?
+9. Write code that stores the name of a whale shark in a variable.
+10. Which CBE strand focuses on data types?
 
 ## Answer Key
 
-1. papa mafia
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Turtle
-5. [Teacher checks: concept from Data Types of the Deep]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for text-based Python and data structures.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Text, like 'whale shark'.
+2. An integer or float.
+3. String.
+4. Number/float.
+5. It stores the number 12 in a variable called length.
+6. A value that is True or False.
+7. is_endangered = True.
+8. You get a type error.
+9. species = 'whale shark'
+10. Data.

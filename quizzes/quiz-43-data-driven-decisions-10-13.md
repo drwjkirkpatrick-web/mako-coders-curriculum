@@ -1,29 +1,29 @@
 # Week 43 Quiz — Data-Driven Decisions — Ages 10–13
 
-> *10 questions to check understanding of Week 43: Data-Driven Decisions.*
+> *10 code-focused, CBE-aligned questions for Week 43: Data-Driven Decisions.*
 
 ## Questions
 
-1. What is the Swahili name for the All species?
-2. Which country does the All species live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 43?
-5. What is one new word or idea we learned this week about functions, classes, game loops, and conservation messaging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the All species help us understand coding?
-10. What is one way you can share your project to help others?
+1. What does 'data-driven' mean?
+2. Give one example of using data to protect the ocean.
+3. What is a chart used for?
+4. If more plastic is found on Mondays, what could you decide?
+5. How do you know if data is trustworthy?
+6. What is a decision?
+7. Write a rule: if temperature > 30 then alert.
+8. Why is it better to use data than guessing?
+9. Name one source of Kenyan ocean data.
+10. Which CBE strand links to data-driven decisions?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Pygame Zero
-5. [Teacher checks: concept from Data-Driven Decisions]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for capstone project development.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Making choices based on data.
+2. Closing a beach if too many turtles are nesting there.
+3. To see patterns in data.
+4. Schedule cleanups on Mondays.
+5. Check who collected it and how.
+6. Choosing one action from several options.
+7. if temperature > 30: alert()
+8. Data helps you make informed choices.
+9. IFAW, KWS, local surveys.
+10. Data / Critical Thinking.

@@ -1,29 +1,33 @@
 # Week 30 Quiz — Compass Dolphin — Ages 14–17
 
-> *10 questions to check understanding of Week 30: Compass Dolphin.*
+> *10 code-focused, CBE-aligned questions for Week 30: Compass Dolphin.*
 
 ## Questions
 
-1. Describe the real-world significance of the Spinner dolphin for Kenyan marine ecosystems.
-2. How does learning about the Spinner dolphin connect to the CBE strand 'Computers'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sensors, outputs, radio, and internet basics in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching physical computing and networking.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Spinner dolphin.
+1. Write micro:bit code that displays an arrow pointing north.
+2. How does a digital compass detect direction?
+3. What causes compass interference near electronics?
+4. Write a function that returns the cardinal direction for a heading.
+5. How would you log heading data during a dolphin tracking simulation?
+6. What is dead reckoning and why is it hard without GPS?
+7. Explain how sensor fusion could improve direction tracking.
+8. Write code to smooth noisy compass readings.
+9. What is bearing and how does it differ from heading?
+10. Map compass/direction to CBE Computers and Data outcomes.
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to physical computing and networking]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. from microbit import *
+while True:
+    display.show(Image.ALL_ARROWS[compass.heading() // 45])
+2. It measures Earth's magnetic field with a magnetometer.
+3. Metal and magnets can distort the magnetic field.
+4. def cardinal(h):
+    dirs = ['N','NE','E','SE','S','SW','W','NW']
+    return dirs[int((h + 22.5) % 360 / 45)]
+5. Store (time, heading) tuples in a list.
+6. Estimating position from direction and distance; errors accumulate.
+7. Combine compass with accelerometer for tilt compensation.
+8. readings = [compass.heading() for _ in range(5)]; h = sum(readings)/5
+9. Bearing is direction to a target; heading is direction you face.
+10. Learners collect and interpret orientation data.

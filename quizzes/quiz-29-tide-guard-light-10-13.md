@@ -1,29 +1,30 @@
 # Week 29 Quiz — Tide-guard Light — Ages 10–13
 
-> *10 questions to check understanding of Week 29: Tide-guard Light.*
+> *10 code-focused, CBE-aligned questions for Week 29: Tide-guard Light.*
 
 ## Questions
 
-1. What is the Swahili name for the Seagrass beds?
-2. Which country does the Seagrass beds live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 29?
-5. What is one new word or idea we learned this week about sensors, outputs, radio, and internet basics?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the Seagrass beds help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is an output on a micro:bit?
+2. Which block lights an LED on the micro:bit display?
+3. How do you turn all LEDs on?
+4. Write code to flash the centre LED three times.
+5. What colour is a micro:bit LED display?
+6. Why use a light as a tide warning?
+7. What does brightness 0 mean?
+8. What does brightness 9 mean?
+9. How do you clear the display?
+10. Which CBE strand links to outputs?
 
 ## Answer Key
 
-1. mwani wa baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. micro:bit / MakeCode
-5. [Teacher checks: concept from Tide-guard Light]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for physical computing and networking.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Something the micro:bit controls, like an LED.
+2. display.set_pixel(x, y, 9)
+3. display.show(Image.HEART)
+4. for _ in range(3):
+    display.set_pixel(2,2,9); sleep(200); display.set_pixel(2,2,0); sleep(200)
+5. Red.
+6. People can see it from far away.
+7. Off.
+8. Maximum brightness.
+9. display.clear()
+10. Computers.

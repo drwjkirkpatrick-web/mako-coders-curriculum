@@ -1,29 +1,32 @@
 # Week 12 Quiz — Ocean Scene Sprint — Ages 14–17
 
-> *10 questions to check understanding of Week 12: Ocean Scene Sprint.*
+> *10 code-focused, CBE-aligned questions for Week 12: Ocean Scene Sprint.*
 
 ## Questions
 
-1. Describe the real-world significance of the Mixed marine life for Kenyan marine ecosystems.
-2. How does learning about the Mixed marine life connect to the CBE strand 'Creativity'?
-3. Explain the difference between a syntax error and a logic error.
-4. Give one example of how you used sequencing, loops, events, and debugging in this week's project.
-5. Why is data privacy important when sharing wildlife locations?
-6. Compare block-based Scratch with text-based Python for teaching block-based coding in Scratch.
-7. Describe one ethical consideration when using technology for conservation.
-8. How would you test whether a loop is working correctly?
-9. What is one benefit of writing reusable functions or blocks?
-10. Design a one-sentence conservation message for a project about the Mixed marine life.
+1. What is iterative design?
+2. Write Python Turtle code that draws a simple underwater scene with three different shapes.
+3. How do you give constructive feedback on a peer's project?
+4. What is a design constraint?
+5. Explain the difference between form and function in a game.
+6. How would you use randomness to make an ocean scene feel alive?
+7. Write a function that draws a random school of fish.
+8. What is a prototype?
+9. How do you balance creativity with CBE learning outcomes?
+10. Which CBE strand connects a creative sprint to self-expression?
 
 ## Answer Key
 
-1. [Teacher checks: habitat/role/conservation note from the lesson]
-2. [Teacher checks: link to block-based coding in Scratch]
-3. A syntax error breaks the rules of the language; a logic error runs but gives the wrong result.
-4. [Teacher checks: project-specific response]
-5. Exact locations can help poachers or disturb sensitive habitats.
-6. Blocks are visual and beginner-friendly; text is precise, portable, and closer to professional coding.
-7. Avoid sharing sensitive locations, give credit for data, and respect community knowledge.
-8. Check the start value, the stop condition, and the change made each repetition.
-9. You write less code, reduce mistakes, and can reuse the logic in other projects.
-10. [Teacher checks: original, fact-based conservation message]
+1. Building, testing, and improving a project in repeated cycles.
+2. Use t.circle(), t.forward(), and t.color() with loops.
+3. Say what works, then suggest one specific improvement.
+4. A rule or limit the project must follow, e.g., no external images.
+5. Form is how it looks; function is what it does.
+6. Random positions, sizes, or speeds for fish.
+7. def draw_fish_school(n):
+    for _ in range(n):
+        t.goto(random.randint(-200,200), random.randint(-100,100))
+        t.stamp()
+8. A quick early version used to test ideas.
+9. Make sure the creative choice still demonstrates the target competency.
+10. Creativity / Communication.

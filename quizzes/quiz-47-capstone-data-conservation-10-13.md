@@ -1,29 +1,29 @@
 # Week 47 Quiz — Capstone Build 3 — Data & Conservation — Ages 10–13
 
-> *10 questions to check understanding of Week 47: Capstone Build 3 — Data & Conservation.*
+> *10 code-focused, CBE-aligned questions for Week 47: Capstone Build 3 — Data & Conservation.*
 
 ## Questions
 
-1. What is the Swahili name for the All species?
-2. Which country does the All species live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 47?
-5. What is one new word or idea we learned this week about functions, classes, game loops, and conservation messaging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the All species help us understand coding?
-10. What is one way you can share your project to help others?
+1. What conservation message could your capstone share?
+2. How can your game show real data?
+3. Write a line of code that shows a conservation tip on screen.
+4. What is the IUCN status of the shortfin mako shark?
+5. Why is it important to show correct facts in your game?
+6. Name one human action that harms the ocean.
+7. How can your project encourage players to help?
+8. What is a fact file?
+9. How do you keep data in your game up to date?
+10. Which CBE strand links to conservation messaging?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Pygame Zero
-5. [Teacher checks: concept from Capstone Build 3 — Data & Conservation]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for capstone project development.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. Protect sharks and reefs.
+2. Display facts about species when they appear.
+3. screen.draw.text('Reduce plastic!', (100, 50))
+4. Vulnerable.
+5. Players learn from the game.
+6. Plastic pollution, overfishing.
+7. Give them conservation tips or links.
+8. A small file with true information about a species.
+9. Read from an external file.
+10. Citizenship / Project.

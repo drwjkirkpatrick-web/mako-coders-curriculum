@@ -1,29 +1,29 @@
 # Week 49 Quiz — User Interface and Accessibility — Ages 10–13
 
-> *10 questions to check understanding of Week 49: User Interface and Accessibility.*
+> *10 code-focused, CBE-aligned questions for Week 49: User Interface and Accessibility.*
 
 ## Questions
 
-1. What is the Swahili name for the All species?
-2. Which country does the All species live near in our lessons?
-3. What does 'conservation' mean?
-4. What coding tool do we mainly use in Week 49?
-5. What is one new word or idea we learned this week about functions, classes, game loops, and conservation messaging?
-6. Why is it important to test your code often?
-7. Name one thing humans do that can harm the ocean.
-8. What is a 'habitat'?
-9. How does the All species help us understand coding?
-10. What is one way you can share your project to help others?
+1. What is a user interface?
+2. Give one example of a good UI feature.
+3. Why should text be big enough to read?
+4. What is accessibility?
+5. Name one way to help someone who cannot see images well.
+6. How do you show the score on the screen?
+7. Why should colours be easy to tell apart?
+8. What is a control?
+9. How do you explain the controls to a player?
+10. Which CBE strand links to UI/accessibility?
 
 ## Answer Key
 
-1. viumbe vya baharini
-2. Kenya, along the Indian Ocean coast.
-3. Protecting animals and their habitats so they do not disappear.
-4. Python + Pygame Zero
-5. [Teacher checks: concept from User Interface and Accessibility]
-6. So you can find mistakes early and fix them.
-7. Plastic pollution, overfishing, or destroying mangroves and coral reefs.
-8. The place where an animal lives and finds food and shelter.
-9. It gives us a real example for capstone project development.
-10. Show it to classmates, family, or post a picture with a conservation message.
+1. The parts of a program that the user sees and uses.
+2. Clear buttons, labels, instructions.
+3. So everyone can see it.
+4. Making sure everyone can use the program.
+5. Add text descriptions.
+6. screen.draw.text('Score: ' + str(score), (10, 10))
+7. Some people cannot see certain colours.
+8. A way the user gives input, like a key or button.
+9. Show them on the screen at the start.
+10. Digital Literacy / Citizenship.
