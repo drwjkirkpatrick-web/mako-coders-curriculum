@@ -1,0 +1,15 @@
+*.pyc
+__pycache__/
+*.pyo
+*.db
+*.sqlite3
+.DS_Store
+.vscode/
+.idea/
+tracker/report.html
+*.sb3
+*.hex
+.env
+node_modules/
+dist/
+build/
