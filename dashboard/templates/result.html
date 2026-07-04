@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="result-header">
+  <span class="result-score {{ 'great' if attempt.percent >= 80 else 'good' if attempt.percent >= 60 else 'keep' }}">{{ attempt.score }} / {{ attempt.total }}</span>
+  <h1>{{ attempt.percent }}% — Week {{ "%02d" | format(attempt.week) }}</h1>
+  <p class="meta">{{ student.name }} • {{ attempt.taken_at[:16] }}</p>
+</section>
+
+<section class="breakdown">
+  {% for question in quiz.questions %}
+    {% set submitted = answers.get(question.number|string, "") %}
+    {% set correct = score_answer(submitted, question.answer) %}
+    <div class="result-row {{ 'correct' if correct else 'incorrect' }}">
+      <div class="result-q">
+        <span class="q-number">{{ question.number }}</span>
+        <p class="q-text">{{ question.text }}</p>
+      </div>
+      <div class="result-a">
+        <p><strong>Your answer:</strong> {{ submitted or "—" }}</p>
+        <p><strong>Key answer:</strong> {{ question.answer }}</p>
+        <span class="result-tag">{{ '✅ Correct' if correct else '💡 Check the key answer' }}</span>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+<section class="actions">
+  <a href="{{ url_for('take_quiz', student_id=student.id, week=attempt.week) }}" class="btn-secondary">Try again 🔄</a>
+  <a href="{{ url_for('student_dashboard', student_id=student.id) }}" class="btn-primary">Back to dashboard 🦈</a>
+</section>
+{% endblock %}

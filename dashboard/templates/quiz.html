@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="quiz-header">
+  <h1>Week {{ "%02d" | format(quiz.week) }} Quiz — {{ quiz.title }}</h1>
+  <p class="meta">Student: <strong>{{ student.name }}</strong> | Age band: {{ student.age_band }}</p>
+</section>
+
+<form method="POST" class="quiz-form">
+  {% for question in quiz.questions %}
+    <div class="question-card">
+      <span class="q-number">{{ question.number }}</span>
+      <p class="q-text">{{ question.text }}</p>
+      <textarea name="q{{ question.number }}" rows="3" placeholder="Type your answer here..." required></textarea>
+    </div>
+  {% endfor %}
+
+  <div class="form-actions">
+    <button type="submit" class="btn-primary">Submit answers ✅</button>
+    <a href="{{ url_for('student_dashboard', student_id=student.id) }}" class="btn-ghost">Cancel</a>
+  </div>
+</form>
+{% endblock %}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print Report — {{ student.name }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: #fff; }
+      .report-card { box-shadow: none; border: 1px solid #ddd; }
+    }
+  </style>
+</head>
+<body class="print-body">
+  <div class="no-print print-actions">
+    <button onclick="window.print()" class="btn-primary">🖨️ Print this page</button>
+    <a href="{{ url_for('student_dashboard', student_id=student.id) }}" class="btn-ghost">← Back to dashboard</a>
+  </div>
+
+  <article class="report-card">
+    <header class="report-header">
+      <div class="report-logo">
+        <span class="logo-icon">🦈</span>
+        <span class="logo-text">Mako Coders</span>
+      </div>
+      <h1>Student Progress Report</h1>
+      <p class="report-meta">Generated on {{ generated_at }}</p>
+    </header>
+
+    <section class="report-student">
+      <h2>{{ student.name }}</h2>
+      <p>Age band: <strong>{{ student.age_band }}</strong>{% if student.grade %} • Grade: <strong>{{ student.grade }}</strong>{% endif %}</p>
+    </section>
+
+    <section class="report-stats">
+      <div class="report-stat">
+        <span class="report-stat-number">{{ stats.completed_weeks }}</span>
+        <span class="report-stat-label">Quizzes completed out of 52</span>
+      </div>
+      <div class="report-stat">
+        <span class="report-stat-number">{{ stats.total_attempts }}</span>
+        <span class="report-stat-label">Total attempts</span>
+      </div>
+      <div class="report-stat">
+        <span class="report-stat-number">{{ stats.average_best }}%</span>
+        <span class="report-stat-label">Average best score</span>
+      </div>
+    </section>
+
+    <section class="report-badges">
+      <h3>Achievements</h3>
+      {% if achievements %}
+        <ul class="report-badge-list">
+          {% for badge in achievements %}
+            <li><span class="badge-icon">{{ badge.icon }}</span> {{ badge.name }} — {{ badge.desc }} (awarded {{ badge.awarded_at[:10] }})</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>No badges yet. Keep swimming! 🌊</p>
+      {% endif %}
+    </section>
+
+    {% if stats.week_details %}
+    <section class="report-weeks">
+      <h3>Weekly best scores</h3>
+      <table class="report-table">
+        <thead>
+          <tr>
+            <th>Week</th>
+            <th>Best score</th>
+            <th>Attempts</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in stats.week_details %}
+          <tr>
+            <td>Week {{ "%02d" | format(row.week) }}</td>
+            <td>{{ row.best_percent }}%</td>
+            <td>{{ row.attempts }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      <table>
+    </section>
+    {% endif %}
+
+    <footer class="report-footer">
+      <p>Mako Coders Curriculum — aligned to Kenya CBE and inspired by the real marine life of the Kenyan coast. 🇰🇪</p>
+      <p class="small">Scores are auto-marked against the answer key. Teachers should review written responses for depth and accuracy.</p>
+    </footer>
+  </article>
+</body>
+</html>

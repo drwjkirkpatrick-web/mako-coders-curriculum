@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-text">
+    <h1>Mako Coders Quiz Dashboard</h1>
+    <p class="subtitle">Track quiz scores, earn ocean badges, and celebrate every week of your coding journey. 🌊🦈</p>
+  </div>
+  <div class="hero-card">
+    <h2>Add a student</h2>
+    <form method="POST" action="{{ url_for('add_student') }}" class="form-stacked">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Amina, Baraka, Chege..." required>
+      <label for="age_band">Age band</label>
+      <select id="age_band" name="age_band" required>
+        <option value="10-13">10–13 years (Junior)</option>
+        <option value="14-17">14–17 years (Senior)</option>
+      </select>
+      <label for="grade">Grade / Class (optional)</label>
+      <input id="grade" name="grade" type="text" placeholder="Grade 7">
+      <button type="submit" class="btn-primary">Start learning 🚀</button>
+    </form>
+  </div>
+</section>
+
+<section class="student-grid">
+  <h2>Students</h2>
+  {% if students %}
+    <div class="cards">
+      {% for s in students %}
+      <a class="card student-card" href="{{ url_for('student_dashboard', student_id=s.id) }}">
+        <div class="card-top">
+          <span class="avatar">🐢</span>
+          <span class="age-badge">{{ s.age_band }}</span>
+        </div>
+        <h3>{{ s.name }}</h3>
+        {% if s.grade %}
+          <p class="meta">{{ s.grade }}</p>
+        {% endif %}
+        <p class="meta">Joined {{ s.created_at }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty-state">No students yet. Add one above to get started.</p>
+  {% endif %}
+</section>
+{% endblock %}

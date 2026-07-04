@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="dash-header">
+  <div class="student-info">
+    <span class="avatar big">🦈</span>
+    <div>
+      <h1>{{ student.name }}</h1>
+      <p class="meta">Age band: <strong>{{ student.age_band }}</strong> {% if student.grade %}| {{ student.grade }}{% endif %}</p>
+    </div>
+  </div>
+  <div class="actions">
+    <a href="{{ url_for('print_report', student_id=student.id) }}" class="btn-secondary" target="_blank">🖨️ Print report</a>
+    <a href="{{ url_for('index') }}" class="btn-ghost">← All students</a>
+  </div>
+</section>
+
+<section class="stats-row">
+  <div class="stat-card">
+    <span class="stat-number">{{ stats.completed_weeks }}</span>
+    <span class="stat-label">Quizzes done</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">{{ stats.total_attempts }}</span>
+    <span class="stat-label">Total attempts</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">{{ stats.average_best }}%</span>
+    <span class="stat-label">Average best score</span>
+  </div>
+</section>
+
+{% if achievements %}
+<section class="badges-section">
+  <h2>Achievements</h2>
+  <div class="badges">
+    {% for badge in achievements %}
+    <div class="badge" title="{{ badge.desc }}">
+      <span class="badge-icon">{{ badge.icon }}</span>
+      <span class="badge-name">{{ badge.name }}</span>
+      <span class="badge-date">{{ badge.awarded_at[:10] }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="weeks-section">
+  <h2>Weekly quizzes</h2>
+  <div class="week-grid">
+    {% for week in range(1, 53) %}
+      {% set q = grouped.get(week, {}).get(student.age_band) or grouped.get(week, {}).get('10-13') %}
+      {% set done = stats.week_details | selectattr('week', 'equalto', week) | list %}
+      {% if q %}
+        <a class="week-card {% if done %}done{% else %}open{% endif %}" href="{{ url_for('take_quiz', student_id=student.id, week=week) }}">
+          <span class="week-num">W{{ "%02d" | format(week) }}</span>
+          <span class="week-title">{{ q.title }}</span>
+          {% if done %}
+            <span class="week-score">{{ done[0].best_percent }}%</span>
+          {% else %}
+            <span class="week-status">Start ➜</span>
+          {% endif %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

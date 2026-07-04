@@ -43,6 +43,13 @@ mako-coders-curriculum/
 ├── quizzes/                # 104 weekly quizzes (10 questions × 2 age bands)
 │   ├── quiz-04-dolphin-loops-10-13.md
 │   └── quiz-04-dolphin-loops-14-17.md
+├── dashboard/              # Local Flask dashboard: auto-score quizzes + achievements + printable reports
+│   ├── app.py
+│   ├── smoke_test.py
+│   ├── requirements.txt
+│   ├── templates/
+│   ├── static/css/
+│   └── data/
 ├── research/               # Domain research + standards mapping
 │   ├── standards-mapping.md
 │   ├── domain-reference.md
@@ -79,7 +86,23 @@ python3 tests/test_prompts.py --validate --non-interactive
 python3 tests/test_prompts.py --prompt 4
 ```
 
-### 3. Initialise the progress tracker
+### 3. Run the local quiz dashboard
+
+```bash
+cd dashboard
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 app.py
+```
+
+Open http://127.0.0.1:5000
+- Add students by age band (10–13 or 14–17).
+- Take weekly quizzes; answers are auto-scored against the answer key.
+- View badges, completion records, and a printable student report.
+- Run `python3 smoke_test.py` to verify the dashboard without a browser.
+
+### 4. Initialise the progress tracker
 
 ```bash
 python3 tracker/progress_tracker.py init
