@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Spinner dolphin and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Two-player event.** Add a second keyboard-controlled sprite and make the two sprites react differently to the same event.
+
+## Homework Assignment
+
+Observe one event in nature or your home (a door opening, rain starting). Write what caused it and what happened as a result.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-09-pod-click-events-10-13.md`](../../quizzes/quiz-09-pod-click-events-10-13.md)
+- Ages 14–17: [`quizzes/quiz-09-pod-click-events-14-17.md`](../../quizzes/quiz-09-pod-click-events-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the All species and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Password strength checker.** Write a simple program that tells the user if a password is weak, medium, or strong based on length and character types.
+
+## Homework Assignment
+
+Review your own passwords or passphrases at home. Make sure none are shared across important accounts.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-37-cybersecurity-at-sea-10-13.md`](../../quizzes/quiz-37-cybersecurity-at-sea-10-13.md)
+- Ages 14–17: [`quizzes/quiz-37-cybersecurity-at-sea-14-17.md`](../../quizzes/quiz-37-cybersecurity-at-sea-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

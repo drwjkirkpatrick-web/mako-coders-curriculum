@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Green sea turtle and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Sub-task map.** Draw a flowchart with at least four sub-tasks for a real conservation action such as a beach cleanup.
+
+## Homework Assignment
+
+Choose a chore at home. List the steps in order and circle any step that could be shared with someone else.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-11-decompose-turtle-rescue-10-13.md`](../../quizzes/quiz-11-decompose-turtle-rescue-10-13.md)
+- Ages 14–17: [`quizzes/quiz-11-decompose-turtle-rescue-14-17.md`](../../quizzes/quiz-11-decompose-turtle-rescue-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

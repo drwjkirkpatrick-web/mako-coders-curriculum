@@ -76,6 +76,21 @@ Two learners demo. Peers give one glow and one grow using the CBE rubric languag
 
 Make the dolphins spin faster when the space key is pressed. Research one more fact about spinner dolphins and add it to the project.
 
+## Extra Credit Challenge
+
+**Nested pattern challenge.** Use one loop inside another to draw a coral reef tile or turtle-shell pattern with at least 6 shapes.
+
+## Homework Assignment
+
+Count how many times you repeat an action at home today (brushing teeth, climbing stairs). Write the number and one way a loop could model it.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-04-dolphin-loops-10-13.md`](../../quizzes/quiz-04-dolphin-loops-10-13.md)
+- Ages 14–17: [`quizzes/quiz-04-dolphin-loops-14-17.md`](../../quizzes/quiz-04-dolphin-loops-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

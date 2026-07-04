@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Hawksbill sea turtle and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Nested pattern challenge.** Use one loop inside another to draw a coral reef tile or turtle-shell pattern with at least 6 shapes.
+
+## Homework Assignment
+
+Count how many times you repeat an action at home today (brushing teeth, climbing stairs). Write the number and one way a loop could model it.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-05-coral-patterns-10-13.md`](../../quizzes/quiz-05-coral-patterns-10-13.md)
+- Ages 14–17: [`quizzes/quiz-05-coral-patterns-14-17.md`](../../quizzes/quiz-05-coral-patterns-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

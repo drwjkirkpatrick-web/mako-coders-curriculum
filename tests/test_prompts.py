@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test harness for Mako Coders prompt modules and lesson plans.
+Test harness for Mako Coders prompt modules, lesson plans, and quizzes.
 
 Usage:
     python3 tests/test_prompts.py --list
@@ -12,7 +12,6 @@ Heavily commented for teachers and maintainers.
 """
 
 import argparse
-import os
 import re
 import sys
 from pathlib import Path
@@ -27,6 +26,7 @@ from modules import MODULES  # noqa: E402
 ROOT = HERE.parent
 PROMPTS_DIR = ROOT / "prompts"
 LESSONS_DIR = ROOT / "lessons"
+QUIZZES_DIR = ROOT / "quizzes"
 
 
 def prompt_path(number: int, slug: str) -> Path:
@@ -39,13 +39,20 @@ def lesson_path(number: int, slug: str) -> Path:
     return LESSONS_DIR / f"lesson-{number:02d}-{slug}.md"
 
 
+def quiz_path(number: int, slug: str, age_band: str) -> Path:
+    """Return the expected quiz markdown file path."""
+    return QUIZZES_DIR / f"quiz-{number:02d}-{slug}-{age_band}.md"
+
+
 def list_modules():
     """Print all modules with file existence status."""
-    print(f"{'Wk':<4}{'Slug':<36}{'Prompt':<10}{'Lesson':<10}Title")
-    for number, slug, title, species, tier, age, strand in MODULES:
+    print(f"{'Wk':<4}{'Slug':<36}{'Prompt':<10}{'Lesson':<10}{'Quiz 10-13':<12}{'Quiz 14-17':<12}Title")
+    for number, slug, title, *_ in MODULES:
         p_ok = "OK" if prompt_path(number, slug).exists() else "MISSING"
         l_ok = "OK" if lesson_path(number, slug).exists() else "MISSING"
-        print(f"{number:<4}{slug:<36}{p_ok:<10}{l_ok:<10}{title}")
+        q_y = "OK" if quiz_path(number, slug, "10-13").exists() else "MISSING"
+        q_o = "OK" if quiz_path(number, slug, "14-17").exists() else "MISSING"
+        print(f"{number:<4}{slug:<36}{p_ok:<10}{l_ok:<10}{q_y:<12}{q_o:<12}{title}")
 
 
 def validate_prompt(path: Path) -> list:
@@ -55,19 +62,16 @@ def validate_prompt(path: Path) -> list:
         errors.append("file missing")
         return errors
     text = path.read_text(encoding="utf-8")
-    # Must have a level-1 title with module number
     if not re.search(r"^#\s+Prompt\s+\d+:", text, re.MULTILINE):
         errors.append("missing '# Prompt NN:' title")
-    # Must have a Testable Prompt section with a code block
     if "## Testable Prompt" not in text:
         errors.append("missing '## Testable Prompt' section")
     if not re.search(r"```[\s\S]+?```", text):
         errors.append("missing fenced code block for prompt")
-    # Must have a What to Test table with at least 5 rows
     if "## What to Test" not in text:
         errors.append("missing '## What to Test' section")
     table_rows = re.findall(r"\|\s*[^|\n]+\|", text)
-    if len(table_rows) < 12:  # header + separator + 5 rows = ~12 pipes
+    if len(table_rows) < 12:
         errors.append("'What to Test' table looks incomplete")
     return errors
 
@@ -88,6 +92,9 @@ def validate_lesson(path: Path) -> list:
         "## Lesson Development",
         "## Assessment",
         "## Extended Activity",
+        "## Extra Credit Challenge",
+        "## Homework Assignment",
+        "## Weekly Quiz",
         "## Differentiation",
         "## Teacher Reflection",
         "## RPF & CBE Cross-Reference",
@@ -95,30 +102,60 @@ def validate_lesson(path: Path) -> list:
     for header in required_headers:
         if header not in text:
             errors.append(f"missing '{header}' section")
-    # Assessment must contain the four rubric bands
     for band in ("BE", "AE", "ME", "EE"):
         if band not in text:
             errors.append(f"missing rubric band {band}")
+    # Quiz links should exist
+    quiz_links = re.findall(r"quizzes/quiz-\d{2}-[^)]+-1[04]-1[37]\.md", text)
+    if len(quiz_links) < 2:
+        errors.append("missing both quiz file links")
+    return errors
+
+
+def validate_quiz(path: Path) -> list:
+    """Check a quiz file for 10 questions and an answer key."""
+    errors = []
+    if not path.exists():
+        errors.append("file missing")
+        return errors
+    text = path.read_text(encoding="utf-8")
+    if "## Questions" not in text:
+        errors.append("missing '## Questions' section")
+    if "## Answer Key" not in text:
+        errors.append("missing '## Answer Key' section")
+    # Count numbered question lines (1. ... 10. ...)
+    q_count = len(re.findall(r"^\d{1,2}\.\s+", text, re.MULTILINE))
+    if q_count < 20:  # 10 questions + 10 answers
+        errors.append(f"expected 20 numbered items (10 questions + 10 answers), found {q_count}")
     return errors
 
 
 def run_validation(interactive: bool):
-    """Validate all expected prompt and lesson files."""
+    """Validate all expected prompt, lesson, and quiz files."""
     all_ok = True
     for number, slug, title, *_ in MODULES:
         p_path = prompt_path(number, slug)
         l_path = lesson_path(number, slug)
+        q_young = quiz_path(number, slug, "10-13")
+        q_teen = quiz_path(number, slug, "14-17")
         p_errors = validate_prompt(p_path)
         l_errors = validate_lesson(l_path)
-        if p_errors or l_errors:
+        qy_errors = validate_quiz(q_young)
+        qt_errors = validate_quiz(q_teen)
+        if p_errors or l_errors or qy_errors or qt_errors:
             all_ok = False
             print(f"\nWeek {number}: {title}")
             for e in p_errors:
                 print(f"  [PROMPT] {e}")
             for e in l_errors:
                 print(f"  [LESSON] {e}")
+            for e in qy_errors:
+                print(f"  [QUIZ 10-13] {e}")
+            for e in qt_errors:
+                print(f"  [QUIZ 14-17] {e}")
     if all_ok:
-        print(f"All {len(MODULES)} prompts and {len(MODULES)} lessons passed validation.")
+        total = len(MODULES)
+        print(f"All {total} prompts, {total} lessons, and {total * 2} quizzes passed validation.")
         return 0
     print("\nValidation failed for some files.")
     return 1
@@ -128,10 +165,16 @@ def print_summary():
     """Show counts of existing vs expected files."""
     prompts_found = sum(1 for n, s, *_ in MODULES if prompt_path(n, s).exists())
     lessons_found = sum(1 for n, s, *_ in MODULES if lesson_path(n, s).exists())
+    quizzes_found = sum(
+        1 for n, s, *_ in MODULES
+        for band in ("10-13", "14-17")
+        if quiz_path(n, s, band).exists()
+    )
     total = len(MODULES)
     print(f"Prompts: {prompts_found}/{total}")
     print(f"Lessons: {lessons_found}/{total}")
-    if prompts_found == total and lessons_found == total:
+    print(f"Quizzes: {quizzes_found}/{total * 2}")
+    if prompts_found == total and lessons_found == total and quizzes_found == total * 2:
         print("Status: COMPLETE")
     else:
         print("Status: INCOMPLETE")
@@ -162,11 +205,11 @@ def show_prompt(number: int):
 def main():
     """Parse CLI arguments and run the requested command."""
     parser = argparse.ArgumentParser(
-        description="Validate Mako Coders prompt modules and lesson plans."
+        description="Validate Mako Coders prompt modules, lesson plans, and quizzes."
     )
     parser.add_argument("--list", action="store_true", help="List all modules")
     parser.add_argument(
-        "--validate", action="store_true", help="Validate prompt and lesson files"
+        "--validate", action="store_true", help="Validate all files"
     )
     parser.add_argument(
         "--non-interactive",
@@ -189,7 +232,6 @@ def main():
     if args.validate:
         return run_validation(interactive=not args.non_interactive)
 
-    # Default: show summary
     print_summary()
     return 0
 

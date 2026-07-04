@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Mangroves and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Bug bounty.** Create a short program with one deliberate bug, swap with a partner, and see who can find and fix it fastest.
+
+## Homework Assignment
+
+Write down one mistake you made while coding today and how you fixed it. Bring it to share.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-10-debug-the-mangrove-10-13.md`](../../quizzes/quiz-10-debug-the-mangrove-10-13.md)
+- Ages 14–17: [`quizzes/quiz-10-debug-the-mangrove-14-17.md`](../../quizzes/quiz-10-debug-the-mangrove-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

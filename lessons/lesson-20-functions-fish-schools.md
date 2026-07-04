@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Mixed fish and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Write a helper function.** Create a reusable function that draws or describes a different marine species. Call it at least three times with different inputs.
+
+## Homework Assignment
+
+Write down one everyday task that repeats (e.g., making tea). Break it into a function with 3–4 steps. Bring the steps to class.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-20-functions-fish-schools-10-13.md`](../../quizzes/quiz-20-functions-fish-schools-10-13.md)
+- Ages 14–17: [`quizzes/quiz-20-functions-fish-schools-14-17.md`](../../quizzes/quiz-20-functions-fish-schools-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

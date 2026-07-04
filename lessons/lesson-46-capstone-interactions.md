@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Shortfin mako shark and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Add a level or mode.** Introduce a second difficulty level, a new Kenyan species, or a data-export feature to your Mako Shark Expedition. Document the change in your project README.
+
+## Homework Assignment
+
+Work on your capstone for 20–30 minutes at home. Fix one bug or add one small feature. Be ready to share what changed.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-46-capstone-interactions-10-13.md`](../../quizzes/quiz-46-capstone-interactions-10-13.md)
+- Ages 14–17: [`quizzes/quiz-46-capstone-interactions-14-17.md`](../../quizzes/quiz-46-capstone-interactions-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the All species and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Offline fact cache.** Build a small dictionary of five Kenyan ocean facts that your program can use even without internet.
+
+## Homework Assignment
+
+Ask a family member how they use the internet safely. Write down one tip they shared.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-33-internet-and-ocean-10-13.md`](../../quizzes/quiz-33-internet-and-ocean-10-13.md)
+- Ages 14–17: [`quizzes/quiz-33-internet-and-ocean-14-17.md`](../../quizzes/quiz-33-internet-and-ocean-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

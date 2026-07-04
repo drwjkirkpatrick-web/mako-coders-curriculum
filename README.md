@@ -24,6 +24,7 @@
 2. **CBE-aligned from day one.** Each lesson maps to a CBE strand, develops the 7 core competencies, and uses the BE/AE/ME/EE rubric.
 3. **Offline-ready.** The curriculum assumes intermittent connectivity. Scratch offline editor, Python on Raspberry Pi / old laptops, and micro:bit simulators are all valid pathways.
 4. **Final project with purpose.** The Mako Shark Expedition teaches learners to combine loops, conditionals, functions, data, and conservation messaging into a playable or explorable artifact.
+5. **Built-in assessment for two age bands.** Every lesson includes an Extra Credit Challenge, a Homework Assignment, and two 10-question quizzes — one for ages 10–13 and one for ages 14–17 — complete with answer keys.
 
 ---
 
@@ -39,10 +40,17 @@ mako-coders-curriculum/
 │   ├── LESSON-TEMPLATE.md
 │   ├── lesson-04-dolphin-loops.md
 │   └── ...
+├── quizzes/                # 104 weekly quizzes (10 questions × 2 age bands)
+│   ├── quiz-04-dolphin-loops-10-13.md
+│   └── quiz-04-dolphin-loops-14-17.md
 ├── research/               # Domain research + standards mapping
 │   ├── standards-mapping.md
 │   ├── domain-reference.md
 │   └── module-plan.md
+├── scripts/                # Generator scripts
+│   ├── generate_prompts.py
+│   ├── generate_lessons.py
+│   └── enhance_lessons_and_quizzes.py
 ├── tests/                  # Validation harness
 │   ├── modules.py          # Master module metadata
 │   └── test_prompts.py     # CLI validator
@@ -107,7 +115,13 @@ CBE uses a four-level rubric:
 | ME | Meeting Expectations | 60–79% |
 | EE | Exceeding Expectations | 80–100% |
 
-Every lesson plan contains a criterion-based assessment table. The progress tracker auto-awards badges when learners reach ME or EE.
+Every lesson plan contains:
+- a criterion-based assessment table
+- an **Extra Credit Challenge** for early finishers
+- a **Homework Assignment** to reinforce the week's concept
+- two **Weekly Quizzes** (ages 10–13 and 14–17) with answer keys
+
+The progress tracker auto-awards badges when learners reach ME or EE.
 
 ---
 

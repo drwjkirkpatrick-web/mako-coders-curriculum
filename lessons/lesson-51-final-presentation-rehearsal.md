@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the All species and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Demo video.** Record a 60-second screen-capture or phone video of your project working and narrate what it does.
+
+## Homework Assignment
+
+Practice your presentation three times. Time yourself and ask someone for one piece of feedback.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-51-final-presentation-rehearsal-10-13.md`](../../quizzes/quiz-51-final-presentation-rehearsal-10-13.md)
+- Ages 14–17: [`quizzes/quiz-51-final-presentation-rehearsal-14-17.md`](../../quizzes/quiz-51-final-presentation-rehearsal-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the All species and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Screen-reader friendly.** Add text labels to all visual elements and test whether a friend can understand the project without seeing the images.
+
+## Homework Assignment
+
+Look at one app or website you use. Find one feature that helps people with different abilities.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-49-ui-accessibility-10-13.md`](../../quizzes/quiz-49-ui-accessibility-10-13.md)
+- Ages 14–17: [`quizzes/quiz-49-ui-accessibility-14-17.md`](../../quizzes/quiz-49-ui-accessibility-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Mangroves and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Campaign slide.** Design one poster or slide that teaches others how to protect marine species using technology responsibly.
+
+## Homework Assignment
+
+Think of one way technology can harm nature if used badly. Write two sentences about how to avoid that harm.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-38-digital-citizenship-clean-coasts-10-13.md`](../../quizzes/quiz-38-digital-citizenship-clean-coasts-10-13.md)
+- Ages 14–17: [`quizzes/quiz-38-digital-citizenship-clean-coasts-14-17.md`](../../quizzes/quiz-38-digital-citizenship-clean-coasts-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

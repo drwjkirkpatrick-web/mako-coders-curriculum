@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the All megafauna and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Collect your own data.** Record three real or realistic observations about marine life near your community (or from a video). Add them to your project data file and explain any trends you notice.
+
+## Homework Assignment
+
+Find one real news article or report about Kenyan marine conservation. Summarise it in 3–5 sentences and note any numbers or data mentioned.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-22-survey-data-2023-10-13.md`](../../quizzes/quiz-22-survey-data-2023-10-13.md)
+- Ages 14–17: [`quizzes/quiz-22-survey-data-2023-14-17.md`](../../quizzes/quiz-22-survey-data-2023-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

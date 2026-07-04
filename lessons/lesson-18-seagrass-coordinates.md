@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Seagrass beds and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Design a second scene.** Create a short Scratch animation or Python sketch that shows the Seagrass beds at a different time of day (dawn, noon, or night). Add at least one new sprite or shape and explain in one sentence why you chose that time.
+
+## Homework Assignment
+
+Spend 15–20 minutes at home exploring the Seagrass beds online or in a book. Write down one new fact and one question you would like to ask Mako next week. Bring your fact and question to class.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-18-seagrass-coordinates-10-13.md`](../../quizzes/quiz-18-seagrass-coordinates-10-13.md)
+- Ages 14–17: [`quizzes/quiz-18-seagrass-coordinates-14-17.md`](../../quizzes/quiz-18-seagrass-coordinates-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

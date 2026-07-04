@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Seagrass beds and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Build a sensor alarm.** Extend your micro:bit project so it reacts to two different inputs (for example, temperature + button press) and shows different LED patterns for each.
+
+## Homework Assignment
+
+Draw a labelled diagram of your micro:bit circuit or project idea. Label the input, the processing, and the output.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-29-tide-guard-light-10-13.md`](../../quizzes/quiz-29-tide-guard-light-10-13.md)
+- Ages 14–17: [`quizzes/quiz-29-tide-guard-light-14-17.md`](../../quizzes/quiz-29-tide-guard-light-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

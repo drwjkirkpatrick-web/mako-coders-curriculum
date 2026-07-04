@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Coral reefs and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Multi-species identifier.** Add one more species to your conditional decision tree and test it with three different inputs.
+
+## Homework Assignment
+
+List three if/then rules you follow at home or school. Convert one of them into pseudocode or Scratch blocks.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-07-reef-branching-10-13.md`](../../quizzes/quiz-07-reef-branching-10-13.md)
+- Ages 14–17: [`quizzes/quiz-07-reef-branching-14-17.md`](../../quizzes/quiz-07-reef-branching-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

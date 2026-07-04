@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Seagrass beds and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Schedule a log.** Make your program append a new line to a file every time it runs, with a timestamp.
+
+## Homework Assignment
+
+Write down one chore you do daily. List the steps and identify one that a computer could remind you about.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-35-automate-tide-log-10-13.md`](../../quizzes/quiz-35-automate-tide-log-10-13.md)
+- Ages 14–17: [`quizzes/quiz-35-automate-tide-log-14-17.md`](../../quizzes/quiz-35-automate-tide-log-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the All species and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Peer mentor.** Help a classmate finish or improve their project. Write two sentences describing what you taught and what you learned by teaching.
+
+## Homework Assignment
+
+Prepare a 60-second speech about your favourite project from this term. Practice in front of a mirror or with a family member.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-52-mako-shark-expedition-showcase-10-13.md`](../../quizzes/quiz-52-mako-shark-expedition-showcase-10-13.md)
+- Ages 14–17: [`quizzes/quiz-52-mako-shark-expedition-showcase-14-17.md`](../../quizzes/quiz-52-mako-shark-expedition-showcase-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |

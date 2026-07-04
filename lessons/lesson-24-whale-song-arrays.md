@@ -72,6 +72,21 @@ Two or three learners demo their work. Peers give one "glow" (what worked well) 
 
 Research one additional fact about the Humpback whale and add it to the project. Alternatively, modify the code to respond to a second input or display extra data.
 
+## Extra Credit Challenge
+
+**Compose a short song.** Create a list of 8–10 notes or frequencies and make your program play or visualise them.
+
+## Homework Assignment
+
+Listen to a recording of a humpback whale song. Write three words that describe how it sounds.
+
+## Weekly Quiz
+
+- Ages 10–13: [`quizzes/quiz-24-whale-song-arrays-10-13.md`](../../quizzes/quiz-24-whale-song-arrays-10-13.md)
+- Ages 14–17: [`quizzes/quiz-24-whale-song-arrays-14-17.md`](../../quizzes/quiz-24-whale-song-arrays-14-17.md)
+
+*The quiz includes 10 questions and an answer key to check understanding before the next lesson.*
+
 ## Differentiation
 
 | Support | Advanced |
